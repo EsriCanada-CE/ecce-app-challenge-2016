@@ -1,0 +1,16 @@
+{
+  "allPlaceholder": "",
+  "showInfoWindowOnSelect": false,
+  "sources": [
+    {
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "name": "Esri World Geocoder",
+      "singleLineFieldName": "SingleLine",
+      "placeholder": "Find your Home",
+      "countryCode": "",
+      "maxResults": 6,
+      "searchInCurrentMapExtent": false,
+      "type": "locator"
+    }
+  ]
+}

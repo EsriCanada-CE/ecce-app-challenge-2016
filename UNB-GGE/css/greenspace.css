@@ -1,0 +1,69 @@
+#carto-container {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    margin: 10px 0;
+}
+
+#carto {
+    overflow: visible;
+}
+
+#click_to_run {
+    color: #888;
+    width: 600px;
+    font-size: 2em;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 30px;
+}
+
+#click_to_reset {
+    color: #888;
+    width: 600px;
+    font-size: 2em;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 30px;
+}
+
+path.comm {
+    stroke: #AAA;
+    stroke-width: .5;
+}
+
+path.comm:hover {
+    stroke: #000;
+}
+
+.leaflet-right .leaflet-control {
+    margin-right: 10px;
+    z-index: 9000;
+}
+
+.leaflet-top .leaflet-control {
+    margin-top: 80px;
+    margin-left: 10px;
+    z-index: 9000;
+}
+
+.panel-container {
+    margin-top: 75px;
+    margin-left: 10px;
+    z-index: 1000;
+}
+
+#map {
+}
+
+#geocode {
+}
+
+.modal-content {
+    background-color: rgba(255, 255, 255, 0.14);
+}
+.cartogram-heading{
+    background-color: rgba(124, 170, 120, 1);
+    /*background-color: rgba(255, 255, 255, 1);*/
+    color: #fff;
+}

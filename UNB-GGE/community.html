@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Lock viewport to prevent scaling -->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="description" content="Community Green Space - Rate My Community">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+    <title>Community Green Space</title>
+
+    <!-- Load javascript util -->
+    <script src="lib/lodash/lodash.js"></script>
+
+    <!-- Load Leaflet from CDN-->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/leaflet/0.7.3/leaflet.css"/>
+    <script src="//cdn.jsdelivr.net/leaflet/0.7.3/leaflet.js"></script>
+
+    <!--<link rel="stylesheet" href="lib/leaflet-0.7.3/leaflet.css"/>-->
+    <link rel="stylesheet" href="lib/leaflet-0.7.3/cluster/MarkerCluster.css"/>
+    <link rel="stylesheet" href="lib/leaflet-0.7.3/cluster/MarkerCluster.Default.css"/>
+
+    <!--<script src="lib/leaflet-0.7.3/leaflet-src.js"></script>-->
+    <!--<script src="lib/leaflet-0.7.3/cluster/leaflet.markercluster.js"></script>-->
+    <!--<script src="lib/leaflet-0.7.3/ajax/leaflet.ajax.js"></script>-->
+
+    <!-- Load Esri Leaflet from CDN -->
+    <script src="//cdn.jsdelivr.net/leaflet.esri/1.0.0/esri-leaflet.js"></script>
+    <!--<script src="lib/esri-leaflet-1.0.0/esri-leaflet-src.js"></script>-->
+
+    <!-- Esri-Leaflet Geocoder -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/leaflet.esri.geocoder/1.0.2/esri-leaflet-geocoder.css">
+    <script src="//cdn.jsdelivr.net/leaflet.esri.geocoder/1.0.2/esri-leaflet-geocoder.js"></script>
+
+    <!-- Calcite-Bootstrap -->
+    <link rel="stylesheet" href="http://esri.github.io/calcite-bootstrap/assets/css/calcite-bootstrap.css">
+
+    <!-- Calcite-Maps -->
+    <link rel="stylesheet" href="lib/calcite/css/calcite-maps.css">
+    <link rel="stylesheet" href="lib/calcite/css/calcite-maps-esrileaflet.css">
+    <link rel="stylesheet" href="lib/calcite/css/themes/themes.css">
+
+
+    <!-- Chroma -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/chroma-js/0.5.9/chroma.min.js"></script>
+    <!-- D3 -->
+    <script src="lib/d3/d3.v2.min.js"></script>
+    <!-- Topojson -->
+    <script src="lib/topojson/topojson.js"></script>
+    <!-- Cartogram -->
+    <script src="lib/cartogram/cartogram.js"></script>
+    <!-- Misc -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+
+    <!-- App -->
+    <link rel="stylesheet" href="css/greenspace.css">
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+    </style>
+</head>
+<body class="calcite-maps nav-position-top nav-space-none map-position-absolute">
+
+<!-- Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNav"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand">
+                <span class="glyphicon glyphicon glyphicon-globe"></span>
+            </a>
+
+            <div class="navbar-info">
+                <div class="navbar-title text-overflow">
+                    Community Green Spaces
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar collapse -->
+        <div id="mainNav" class="collapse navbar-collapse" aria-expanded="false">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- Search - hidden on small screens, in options menu -->
+                <li class="hidden-xs">
+                    <form class="navbar-form navbar-search">
+                        <div id="geocode" class="geocode-navbar"></div>
+                    </form>
+                </li>
+                <!-- Options dropdown menu -->
+                <li class="dropdown" role="presentation">
+                    <a class="dropdown-toggle hidden-xs" data-toggle="dropdown" href="#" role="button"
+                       aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-option-horizontal"
+                                                                        aria-hidden="true"></span></a>
+                    <ul class="dropdown-menu" aria-lablledby="optionsToggle">
+                        <li><a id="infoNavMenu" class="" role="button" data-target="#panelInfo"><span
+                                class="glyphicon glyphicon-info-sign"></span> Info</a></li>
+                        <li><a id="searchNavMenu" class="visible-xs" role="button" data-target="#panelSearch"><span
+                                class="glyphicon glyphicon-search"></span> Search</a></li>
+                        <li><a id="basemapsNavMenu" class="" role="button" data-target="#panelBasemaps"><span
+                                class="glyphicon glyphicon-th-large"></span> Basemaps</a></li>
+                        <li><a id="settingsMenu" class="" role="button" data-target="#panelSettings"><span
+                                class="glyphicon glyphicon-leaf"></span> Cartogram </a></li>
+                    </ul>
+                </li>
+            </ul><!--/.nav -->
+        </div><!--/.nav-collapse -->
+    </div><!--/.container-fluid -->
+</nav><!--/.navbar -->
+
+<!-- Modal Window -->
+
+<div class="modal fade" id="modalSplash" tabindex="-1" role="dialog" aria-labelledby="splashlModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="splash-body">
+                            <div class="text-center">
+                                <h3><div class="cartogram-heading">Cartogram</div> </h3>
+                                <br>
+                                <div id="carto-container">
+                                    <svg id="carto"></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!--/.modal -->
+
+<!-- Map Container  -->
+
+<div class="map-container">
+    <div id="map" class="map-position-absolute"></div>
+</div><!-- /.container -->
+
+<!-- Panel -->
+
+<div class="panel-container">
+    <!-- Collapsable panel -->
+    <div id="panelAccordion" class="panel-group" role="tablist" aria-multiselectable="true">
+
+        <!-- Info Panel -->
+
+        <div id="panelInfo" class="panel panel-info collapse">
+
+            <div id="headingInfo" class="panel-heading" role="tab">
+                <!-- <div class="panel-title hidden-xs"> -->
+                <div class="panel-title">
+                    <a class="panel-toggle" role="button" data-toggle="collapse" href="#collapseInfo"
+                       data-parent="#panelAccordion" aria-expanded="true" aria-controls="collapseInfo"><span
+                            class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Info</a>
+
+                    <a class="panel-close" role="button" data-toggle="collapse" data-target="#panelInfo"><span
+                            class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+                </div>
+            </div>
+
+            <div id="collapseInfo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingInfo">
+                <div class="panel-body">
+                    <p>Community Green Space is an app for visualizing community space utilization based on
+                        community sustainability factors. </p>
+                    <p>Factors under sustainability themes such as health, environment,
+                        social, and economic can be visualized using a <a
+                                href="https://en.wikipedia.org/wiki/Cartogram">cartogram</a></p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Search Panel -->
+        <div id="panelSearch" class="panel panel-success collapse">
+
+            <div id="headingSearch" class="panel-heading" role="tab">
+                <div class="panel-title">
+                    <a class="panel-toggle collapsed" role="button" data-toggle="collapse" href="#collapseSearch"
+                       data-parent="#panelAccordion" aria-expanded="false" aria-controls="collapseSearch"><span
+                            class="glyphicon glyphicon-search" aria-hidden="true"></span> Search</a>
+
+                    <a class="panel-close" role="button" data-toggle="collapse" data-target="#panelSearch"><span
+                            class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+                </div>
+            </div>
+
+            <div id="collapseSearch" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSearch">
+                <div class="panel-body">
+                    <div class="panel-control">
+                        <div id="geocodeMobile" class="geocode-panel"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Basemaps Panel -->
+        <div id="panelBasemaps" class="panel panel-success collapse">
+
+            <div id="headingBasemaps" class="panel-heading" role="tab">
+                <div class="panel-title">
+                    <a class="panel-toggle collapsed" role="button" data-toggle="collapse" href="#collapseBasemaps"
+                       aria-expanded="false" data-parent="#panelAccordion" aria-controls="collapseBasemaps"><span
+                            class="glyphicon glyphicon-th-large" aria-hidden="true"></span> Basemaps</a>
+
+                    <a class="panel-close" role="button" data-toggle="collapse" data-target="#panelBasemaps"><span
+                            class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+                </div>
+            </div>
+
+            <div id="collapseBasemaps" class="panel-collapse collapse" role="tabpanel"
+                 aria-labelledby="headingBasemaps">
+                <div class="panel-body">
+                    <select id="selectStandardBasemap" class="form-control">
+                        <option value="Topographic" selected>Topographic</option>
+                        <option value="Streets">Streets</option>
+                        <option value="Imagery">Satellite</option>
+                        <option value="DarkGray">Dark Gray</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Cartogram Panel -->
+        <div id="panelSettings" class="panel panel-success collapse in">
+
+            <div id="headingSettings" class="panel-heading">
+                <!-- <div class="panel-title hidden-xs"> -->
+                <div class="panel-title">
+                    <a class="panel-toggle" role="button" data-toggle="collapse" href="#collapseSettings"
+                       data-parent="#panelAccordion" aria-expanded="true" aria-controls="collapseSettings"><span
+                            class="glyphicon glyphicon-leaf" aria-hidden="true"></span> Cartogram</a>
+
+                    <a class="panel-close" role="button" data-toggle="collapse" data-target="#panelSettings"><span
+                            class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+                </div>
+            </div>
+
+            <div id="collapseSettings" class="panel-collapse collapse in" role="tabpanel"
+                 aria-labelledby="headingSettings">
+                <div class="panel-body">
+                    <!-- <a class="panel-body-close visible-xs" role="button" data-toggle="collapse" data-target="#panelSettings"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>    -->
+
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#theme" aria-controls="theme" role="tab"
+                                                                  data-toggle="tab">Sustainability Factors</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+
+                        <div role="tabpanel" class="tab-pane active" id="theme">
+                            <div class="form-horizontal form-padding">
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <select id="green-factors" class="form-control">
+
+                                            <option value="greenspace" disabled>--- Green Space Rating ---</option>
+                                            <option value="GreenRatin" selected>Green Score</option>
+
+                                            <option value="social" disabled>--- Social ---</option>
+                                            <option value="Population" selected>Population</option>
+                                            <option value="PopDensity">Population Density</option>
+                                            <option value="Pop_O65">Population of >= 65 Yearsr</option>
+                                            <option value="NumResiden">Number of Residential Buildings</option>
+                                            <option value="environment" disabled>--- Environment ---</option>
+                                            <option value="WasteWater">Age of Pipes (Sewage)</option>
+                                            <option value="PotableWat">Age of Pipes (Drinking Water)</option>
+                                            <option value="KM_WalkTra">Length of Walking Trails(km)</option>
+                                            <option value="Percent_Pa">Percent Parkland</option>
+                                            <option value="Perc_Trans">Public Transportation Service</option>
+                                            <option value="economic" disabled>--- Economic ---</option>
+                                            <option value="KM_Rd">Length of Roads(km)</option>
+                                            <option value="NumBuildin">Number of Buildings</option>
+                                            <option value="Perc_Build">Percentage of Builtup Area</option>
+
+
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div> <!-- /.panel-group -->
+</div> <!-- /.panel-container -->
+
+<script>
+    var isMobile = false;
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        isMobile = true;
+    }
+</script>
+
+<script>
+
+
+
+    // ============
+    // Esri-Leaflet
+    // ============
+
+    var map = L.map('map').setView([45.9604642, -66.6350766], 12);
+    var base_layer = L.esri.basemapLayer('Topographic').addTo(map);
+    var layerLabels = L.esri.basemapLayer('DarkGrayLabels').addTo(map);
+
+    function setBasemap(basemap) {
+        if (base_layer) {
+            map.removeLayer(base_layer);
+        }
+        if (basemap === 'OpenStreetMap') {
+            base_layer = L.tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png");
+        }
+        else {
+            base_layer = L.esri.basemapLayer(basemap);
+        }
+        map.addLayer(base_layer);
+        if (layerLabels) {
+            map.removeLayer(layerLabels);
+        }
+
+        if (basemap === 'ShadedRelief' || basemap === 'Oceans' || basemap === 'Gray' || basemap === 'DarkGray' || basemap === 'Imagery' || basemap === 'Terrain') {
+            layerLabels = L.esri.basemapLayer(basemap + 'Labels');
+            map.addLayer(layerLabels);
+        }
+    }
+
+    var searchControl = L.esri.Geocoding.Controls.geosearch({
+        expanded: true,
+        collapseAfterResult: false,
+        zoomToResult: false
+    }).addTo(map);
+
+    searchControl.on('results', function (data) {
+        if (data.results.length > 0) {
+            var popup = L.popup()
+                    .setLatLng(data.results[0].latlng)
+                    .setContent(data.results[0].text)
+                    .openOn(map);
+            map.setView(data.results[0].latlng)
+        }
+    });
+
+
+</script>
+
+<!-- ====== -->
+<!-- jQuery -->
+<!-- ====== -->
+
+<!--script src="http://esri.github.io/calcite-bootstrap/scripts/vendor.js"></script-->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
+<script src="lib/jquery-1.11.3/jquery.js"></script>
+<!-- Include all plugins or individual files as needed -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+<script src="lib/layers.js"></script>
+<script src="js/app/community_cartogram.js"></script>
+<script src="js/app/app.js"></script>
+<script>
+    init_app()
+</script>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!-- jQuery (for Bootstrap's JavaScript plugins). NOTE: You can also use pure Dojo. See examples. -->
+<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script-->
+<!-- Include all  plugins or individual files as needed -->
+<!--script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script-->
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<!--script src="../../assets/js/ie10-viewport-bug-workaround.js"></script-->
+
+<!--script src="http://esri.github.io/calcite-bootstrap/scripts/vendor.js"></script-->
+<!--script src="http://esri.github.io/calcite-bootstrap/scripts/plugins.js"></script-->
+<script src="lib/calcite/jquery/calcitemaps.js"></script>
+<script src="js/app/panelsettings.js"></script>
+
+
+</body>
+</html>
+

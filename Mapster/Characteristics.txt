@@ -1,0 +1,24 @@
+Characteristics
+=================
+The purpose of SolarSaver is to excite and inform homeowners about the benefits of installing rooftop solar panels. Instead of prompting the user for a wide variety of generally unknown measurements,  SolarSaver automatically pulls the necessary values from analyzed open data. With greater public access to this information, we hope that more and more homeowners will consider this proven technology. Higher rates of household solar adoption across Canada will greatly assist in the battle against climate change, reducing overall dependency on non-renewable energy sources. 
+
+####  Assess Rooftop Potential
+
+SolarSaver is designed with the everyday Canadian in mind. By taking advantage of the Halifax Open Data Catalog, we have designed an app that calculates rooftop surface area that is eligible for solar panels. By simply clicking on their house, users can view how much they will save annually by generating their own power. These estimates can be further refined through the use of our custom Solar Calculator widget.
+
+#### Educate your Community
+
+Municipalities can put their data to work, and engage their citizens with the interactive and straightforward SolarSaver app. Whether homeowners are interested in how much they can save, learning more about solar energy, or want to locate a local solar business, SolarSaver is there every step of the way. Flexible and easy to use, SolarSaver is designed so that municipalities across the country can take advantage of the user-interface by including their own datasets. 
+
+#### Kickstart a Carbon-Free Lifestyle
+
+By integrating solar power into their lifestyle, Canadian homeowners will diminish their reliability on non-renewable energy sources. With increased adoption across the country, this will contribute to a more sustainable future, for everyone. 
+
+
+
+------
+  [9]: http://www.halifax.ca/opendata/
+  [10]: http://pv.nrcan.gc.ca/pvmapper.php?LAYERS=2057,4240&SETS=1707,1708,1709,1710,1122&ViewRegion=-2508487%2C5404897%2C3080843%2C10464288&title_e=PV+potential+and+insolation&title_f=Potentiel+photovolta%C3%AFque+et+ensoleillement&lang=e
+[11]: http://photovoltaic-software.com/files/PV-power-calculation-basic.xls
+
+> Written with [StackEdit](https://stackedit.io/).

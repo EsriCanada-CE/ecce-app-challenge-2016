@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.green-orange.min.css" />
+        <link rel="stylesheet" href="./styles/easy-button.css" />
+        <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v1.0.0-beta.2/leaflet.css" />
+        <link rel="stylesheet" href="./styles/leaflet-routing-machine.css"/>
+        <link rel="stylesheet" href="./styles/myStyles.css" />
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+        
+        <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script defer src="https://code.getmdl.io/1.1.1/material.min.js"></script>
+        <meta charset="utf-8">
+        <title>reHamilton</title>
+        <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!-- Accent-colored raised button with ripple -->
+        <!-- Always shows a header, even in smaller screens. -->
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout">
+            <header class="mdl-layout__header">
+                <div class="mdl-layout__header-row">
+                    <!-- Title -->
+                    <span class="mdl-layout-title">
+                        re<span class="dynamicTitle">Hamilton</span><span class="dynamicTitle">Duce</span><span class="dynamicTitle">Use</span><span class="dynamicTitle">Cycle</span>
+                        <script>
+                        console.log("dynamicTitle script is running");
+                        var quotes = $(".dynamicTitle");
+                        var quoteIndex = -1;
+                        function showNextQuote() {
+                        ++quoteIndex;
+                        quotes.eq(quoteIndex % quotes.length)
+                        .fadeIn(1000)
+                        .delay(2000)
+                        .fadeOut(1000, showNextQuote);
+                        }
+                        showNextQuote();
+                        </script>
+                    </span>
+                    <!-- Add spacer, to align navigation to the right -->
+                    <div class="mdl-layout-spacer"></div>
+                    <!--
+                    NAVIGATION CODE
+                    -->
+                    <nav class="mdl-navigation">
+                        <a class="mdl-navigation__link" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'" href="javascript:void(0)"><i class="icon ion-help larger"></i></a>
+                        <!-- placeholder incase i need to add more -->
+                    </nav>
+                </div>
+            </header>
+            <div class="mdl-layout__drawer">
+                <span class="mdl-layout-title">Home Pick Up</span>
+                <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" onclick="toggleLayer(0)" href="javascript:void(0)">
+                        Garbage/Recycling Pickup Days
+                    </a>
+                    <a class="mdl-navigation__link" onclick="toggleLayer(1)" href="javascript:void(0)">
+                        Leaf and Yard Services
+                    </a>
+                    <a class="mdl-navigation__link" onclick="clearAllLayers()" href="javascript:void(0)">
+                        Clear All
+                    </a>
+                </nav>
+            </div>
+            <main class="mdl-layout__content">
+            <div class="page-content">
+                <div id="map" style="position: absolute; top:0; bottom:0; right:0; left:0;">
+                </div>
+                <div id="error-toast" class="mdl-js-snackbar mdl-snackbar">
+                    <div class="mdl-snackbar__text"></div>
+                    <button class="mdl-snackbar__action" type="button"></button>
+                </div>
+                <!-- Load ERSI Leaflet from CDN-->
+                <script src="http://cdn.leafletjs.com/leaflet/v1.0.0-beta.2/leaflet.js"></script>
+                <script src="//cdn.jsdelivr.net/leaflet.esri/2.0.0-beta.7/esri-leaflet.js"></script>
+                <link rel="stylesheet" href="//cdn.jsdelivr.net/leaflet.esri.geocoder/2.0.3/esri-leaflet-geocoder.css">
+                <script src="//cdn.jsdelivr.net/leaflet.esri.geocoder/2.0.3/esri-leaflet-geocoder.js"></script>
+                <!-- <script src="https://www.promisejs.org/polyfills/promise-7.0.4.min.js"></script> -->
+                <script src="./js/easy-button.js"></script>
+                <script src="./js/catiline.js"></script>
+                <script src="./js/leaflet.shpfile.js"></script>
+                <script src="./js/shp.js"></script>
+                <script src="./js/leaflet-routing-machine.js"></script>
+                <script src="./js/mapScript.js"></script>
+                <!-- main javascript file that has been written by us -->
+                <div id="light" class="white_content">
+                <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'" style="float: left; position: fixed; background-color: '#000000';">Close</a>
+                    <center><img id="logo" src="./img/logo.png"/></center>
+                    <h3>Map Markers:</h3>
+                    <center><img src="./img/garbageMarkers.png"/><img src="./img/compostingMarker.png"/><img src="./img/municipal.png"/><img src="./img/private.png"/></center>
+                    <p>By selecting one of the many waypoints; contact and service information is displayed. From left to right, the above waypoints are for the following:
+                    <ul>
+                    <li>The garbage icon indicates a city of Hamilton landfill location on the map</li>
+                    <li>The apple core icon indicates a city of Hamilton composting facility on the map</li>
+                    <li>The blue recycling icon indicates a municipal recycling location is present on the map</li>
+                    <li>The orange recycling icon indicates a private recycling location is present at that location</li>
+                    </ul></p>
+                    <h3>Side Bar Icons:</h3>
+                    <center><i class="icon ion-home largerH"></i><i class="icon ion-pin largerH"></i><i class="icon ion-loop largerH"></i><i class="icon ion-cube largerH"></i><i class="icon ion-leaf largerH"></i><i class="icon ion-android-delete largerH"></i><i class="icon ion-android-close largerH"></i></center>
+                    <p>By clicking on one of the above icons on the side bar, different functionality is offered. From left to right it goes as follows:
+                    <ul>
+                    <li>The home button will recentre the view to the default one you had upon loading the webpage</li>
+                    <li>The pin button will geolocate your current location for you, and add a popup with the nearest municipal and private locations. Clicking on one of the addresses will generate a route for you to the given location</li>
+                    <li>The loop button will toggle the private recycling markers on the map</li>
+                    <li>The cube button will toggle the municipal recycling markers on the map</li>
+                    <li>The leaf button will toggle the composting facility markers on the map</li>
+                    <li>The garbage can icon will toggle the landfill markers on the map</li>
+                    <li>The 'x' icon will remove any routing layers currently present on the map (The red line showing your route) and the custom waypoint you created!</li>
+                    </ul></p>
+                    <h3>Home Pick Up:</h3>
+                    <p>By clicking the icon in the top-left corner with the three horizontal lines you will open the overlays coloumn with 3 options:
+                    <ul>
+                    <li><b>Garbage/Recycling Pickup Days:</b> Displays the different municipality waste collection zones and the day of the week collection occurs. A legend appears in the bottom right informing you of what each overlayed colour means.</li>
+                    <li><b>Leaf and Yard Services:</b> Displays the areas of the city were leaf and yard waste collection services are offered. A legend also appears once again informing you of the colour meanings</li>
+                    <li><b>Clear All:</b> This will clear all of the currently opened markers and overlays on the map. This includes the marker icons and both the overlays for garbage pickup and leaf and yard services.</li>
+                    </ul></p>
+                    <h3>Custom Routing Feature:</h3>
+                    <p>Try clicking on a random map location! A popup will be created for you, with the same options as if you were geolocated to that area. When you make a custom waypoint, you can <b>also</b> click anywhere on the map and have it route to that locations. The turn-by-turn directions are also updated to include this and can be viewed by clicking on your created custom marker</p>
+                    <p><b>Please Note:</b> When you have a custom waypoint set up and you would like to go to a custom location, clicking on a marker will merely open up that markers popup. If you would like routing to one of the markers, your best best is to zoom in close enough and click somewhere nearby to your location. Multiple routes are possible by clicking in multiple locations but the popup will only display the last route's turn-by-turn directions.</p>
+                    <p><b>This popup</b> can be opened at any time by clicking on the question mark icon in the top right corner and closed by clicking close in the top left of this popup.</p>
+                    </div>
+                    <div id="fade" class="black_overlay"></div>
+                    <script>
+                    document.getElementById('light').style.display='block';
+                    document.getElementById('fade').style.display='block';
+                    </script>
+                </div>
+            </body>
+        </html>
+        <!-- Your content goes here -->
+    </div>
+    </main>
+</div>
+</body>
+</html>

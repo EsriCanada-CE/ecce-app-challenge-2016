@@ -1,0 +1,265 @@
+<div style="z-index=-1;">
+<div style="height:100%;">
+    <div class="item" style="width:100%;height:100%;background-color:white;">
+        <div class="content" style="height:100%;">
+            <div data-dojo-attach-point="tabERG">
+                <div data-dojo-attach-point="tabNode1" class="ergTabs">
+				 <h1 class="heading">Refine your Estimate</h1>
+				 <br> 
+				 <div>
+				 <label>Desired Panel Area (m<sup>2</sup>)</label>
+				 <br>
+				 <div id="areaValue" class="current"> 
+							Current Panel Area: <span id="default">60</span><span>m<sup>2</sup></span> 
+							<br>
+							Selected Building Area: <span id="default2">0</span><span>m<sup>2</sup></span>
+							<br>
+						</div>
+							<input value="" placeholder="If Necessary, Enter a New Value Here" style="position:relative; width: 100%; background-color:#f2f2f2 border-color:#B5BCC7;" class="textBox" data-dojo-attach-point="xxx" 
+								data-dojo-type="dijit/form/TextBox"/>	
+						</div>								
+                    <!-- Surface Area
+                    <br>
+                    <div>
+						<label>Eligible Surface Area (m<sup>2</sup>)</label> 
+						<br>
+						<div id="areaValue" class="current"> 
+							Current Area Value : <span id="default">20</span><span>m<sup>2</sup></span> 
+						</div>
+                        <select class="ergControls"
+                                data-dojo-attach-point="surfaceArea" 
+								data-dojo-type="dijit/form/Select">
+						</select>
+                    </div> -->
+					<!-- Panel Direction -->
+					<br>
+                    <div>
+						<label>${nls.hoursShaded}</label>
+						<br>
+						<div id="panelIndex" class="current2"> Current Index Value : 
+							<span id="defaultDir">1</span> 
+						</div>
+                        <select class="ergControls"  
+								data-dojo-attach-point="hoursShaded" 
+                                data-dojo-type="dijit/form/Select">
+						</select>
+                    </div>
+                    <!-- Roof Pitch -->
+                    <br>
+                    <div>
+                        <label>Approximate Roof Angle</label> 
+						<br>
+                        <select class="ergControls"  
+							data-dojo-attach-point="roofPitch"
+                            data-dojo-type="dijit/form/Select">
+						</select>
+                    </div>
+                    <!-- Daily Sunshine -->
+                    <br>
+                    <div>
+                        <label>${nls.dailySun}</label> 
+						<br>
+                        <select class="ergControls"  
+							data-dojo-attach-point="dailySun"
+                            data-dojo-type="dijit/form/Select"></select>
+                    </div>
+                    <!-- Monthly Snow Cover -->
+                    <br>
+                    <div>
+                        <label>${nls.snowCover}</label> <br>
+                        <select class="ergControls"  
+							data-dojo-attach-point="snowCover"
+                            data-dojo-type="dijit/form/Select">
+						</select>
+                    </div>
+					<a class="button" href="#popup1">Settings Information</a> <div id="popup1" class="overlay">
+	                                                    <div class="popup">
+		                                                <a class="close" href="#">&times;</a>
+		                                                <div class="content">
+			                                            <h3>Surface Area</h3>
+			                                            Eligible surface area is the most important factor for solar panels. With more available roof space, 
+                                                        more panels can be installed, and more energy can be generated.	Our calculations estimate that you will 
+														utilize 35% of your roof area, change this value as you wish to influence the ouput.
+														
+														<br>
+														<h3>Panel Direction Index</h3>
+														For optimum performance of your panels, they must be facing due South. 
+														SolarSaver has calculated a Direction Index for every building in the Halifax Area. 
+														This index is a weighted average of the directions each specific section of your roof are facing. 
+														If you plan to have all your panels facing a certain direction change the value with the index drop-down 
+														menu and your energy generation and saving will automatically adjust.
+														
+                                                        <br>														
+														<h3>Pitch of Roof</h3>
+														The optimal angle for solar panels to be positioned is generally equal to the latitude of your house. For Halifax,
+														this would be about 45 degrees. Slight changes to this value won't impact your efficiency too much, but major changes (greater than 15 degrees)
+														will have a profound effect.
+														<br>
+														<h3>Shading</h3>
+														Shade is caused by objects blocking the sunlight, and will therefore negatively impact your panels' performance. Ideally, 
+														panels should not be shaded at all.
+														<br>
+														<h3>Snow Cover</h3>
+														Living in Canada, we are not unfamiliar with excess snowfall. Snow covering your panels won't allow for sunlight to reach them,
+														and will therefore decrease your annual returns. Don't forget to clean them off in the winter! 
+		                                                </div>
+														</div>
+	                    </div>
+                    <br>
+					<hr>
+					<h2>Adjusted Annual Savings:</h2>
+					<div class="totalEstimate" id="totalEstimate2">$<span id="totalEstimate"></span></div>
+					<div id="company"></div>
+					
+					<h2 style="text-align: right;"> By Generating: <span id="generate"></span>kWh</h2>
+					<hr>
+					<p id="disclaimer">Displayed values are estimated based on the selected house, default settings, and our background datasets. 
+					    Please fill in the fields above for a more refined estimate. Note that all values are predicted, and may not be 100% accurate.</p>
+					
+                </div>
+           <div data-dojo-attach-point="tabNode2" class="ergTabs">
+				    <div>
+					<fieldset>
+					<h1 class="heading">New to Solar?</h1>
+					<h2>Save on your Power Bill</h2>
+					<p> One of the biggest advantages of solar energy is immediate electricity bill savings. Through these savings,
+                    you will start to see a return on your investment, and a decrease in your energy bill.</p>
+					
+					<h2>Incentives, Incentives, Incentives!</h2>
+					<p>There are several programs and incentives such as tax-free grants to kickstart your solar journey. View 
+					the Solar Nova Scotia and Halifax Solar City links below to explore your options!</p>
+					
+					<h2>Reduce your Carbon Footprint</h2>
+					<p>Replace your utility power with clean, renewable, and sustainable electricity from solar panels. Every 
+					little bit helps in the transition to a carbon-free lifestyle.</p>
+					
+					<h2>Increase your Home Value </h2>
+					<p>Solar panels translate into lower electricity costs, increasing your home's attractiveness on the market.
+					A study conducted by the National Renewable Energy Laboratory (NREL) found that homes with solar panels sell
+					20% faster, and at 17% higher values, than those without.</p>
+					</fieldset>
+					
+					<h2> Learn more, today! </h2>
+					<hr>
+					<ul>
+					    <li><a href="https://www.halifax.ca/solarcity/">City of Halifax Solar City Program</a>
+						    <br><br></li>
+						<li><a href="http://hespv.ca/residential-solar-energy-systems/canadian-energy-programs/solar-nova-scotia">Solar Nova Scotia</a>
+						    <br><br></li>
+					    <li><a href="http://www.solarpowerbeginner.com">Solar Power Basics</a>
+					        <br><br></li>
+						<li><a href="http://www.solarpowerbeginner.com/solar-panels.html">Understanding Solar Panels</a>
+					        <br><br></li>
+						<li><a href="http://www.solarpowerbeginner.com/home-solar-power.html">What can Solar power do for you? </a>
+					        <br><br></li>
+						<li><a href="http://www.solarns.ca/faq">Frequently Asked Questions</a>
+						    </li>
+					</ul>
+					<hr>
+					</div>
+	            </div>
+
+                <div data-dojo-attach-point="tabNode3" class="ergTabs">
+                    <div class="resultsList" data-dojo-attach-point="facilitiesListSection" />
+					
+					<div>
+					<fieldset>
+					<h1 class="heading">Local Consultants</h1>
+					<br>
+					<p>Continue your solar journey by contacting local professionals. Most dealers will
+					provide you with a free site visit, installation quote, and estimates tailored 
+					specifically for your house!</p>
+					<br>
+					<table>
+					
+					    <tr class="border">
+						  <td class="name"><h2>Doctor Solar</h2></td>
+						    
+							<td class="address"><p>(902) 468-3132</p>
+							<p>75 Akerley Boulevard</p>
+							<a href="http://doctorsolar.ca">DoctorSolar.ca</a></td>
+						  
+						</tr>
+						
+						<tr class="border">
+						  <td class="name"><h2>Sunshine Renewable <br>Energy</h2> </td>
+						    <td class="address">
+							<p>(902) 407-3546</p>
+							<p>48 Trider Crescent</p>
+							<a href="http://sunshinerenewables.ca">SunshineRenewables.ca</a></td>
+						 
+						</tr>
+						
+						<tr class="border">
+						  <td class="name"><h2>Aztek Solar</h2> </td>
+						    <td class="address">
+							<p>(902) 407-7778</p>
+							<p>1096 Queen Street</p>
+							<a href="http://azteksolar.ca">AztekSolar.ca</a></td>
+						 
+						</tr>
+						
+						<tr class="border">
+						  <td class="name"><h2>Solar Global<br>Solutions</h2></td>
+						    <td class="address">
+							<p>(902) 876-2834</p>
+							<p>35 Ash Lake Crescent</p>
+							<a href="http://solarglobalsolutions.com">SolarGlobalSolutions.com</a></td>
+						  
+						</tr>
+						
+						<tr class="border">
+						  <td class="name"><h2>Creative Solar</h2> </td>
+						    <td class="address">
+							<p>(902) 446-8161</p>
+							<p>55 Edward Laurie Drive</p>
+							<a href="http://doctorsolar.ca">CreativeSolar.ca</a></td>
+						 
+						</tr>
+						
+						<tr class="border">
+						  <td class="name"><h2>Encom Alternative <br> Energy</h2></td>
+						    <td class="address">
+							<p>(902) 860-0081</p>
+							<p>311 Rocky Lake Drive</p>
+							<a href="http://novascotiagenerators.com">NovaScotiaGenerators.ca</a></td>
+						  
+						</tr>
+						
+						<tr class="border">
+						  <td class="name"><h2>Thermo Dynamics <br>Ltd.</h2> </td>
+						    <td class="address">
+							<p>(902) 468-1001</p>
+							<p>101 Frazee Avenue</p>
+							<a href="http://thermo-dynamics.com">Thermo-Dynamics.com</a></td>
+						 
+						</tr>
+						
+						<tr class="border">
+						  <td class="name"><h2>Lamda Solar</h2> </td>
+						    <td class="address">
+							<p>(902) 482-5729</p>
+							<p>1 Research Drive</p>
+							<a href="http://metamaterial.com">MetaMaterial.com</a></td>
+						 
+						</tr>
+						
+						<tr class="border">
+						  <td class="name"><h2>Green Power Labs</h2></td>
+						    <td class="address">
+							<p>(902) 466-6475</p>
+							<p>1 Research Drive</p>
+							<a href="http://greenpowerlabs.com">GreenPowerLabs.com</a></td>
+						  
+						</tr>
+						
+						</table>
+					
+					</fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

@@ -1,0 +1,8 @@
+http://geonb.snb.ca/arcgis/rest/services
+
+GeoNB_DNR_ProvincialParks (MapServer)
+GeoNB_ENV_ProtectedWatersheds (MapServer)
+GeoNB_ENV_PSWetlands (MapServer)
+GeoNB_ENV_WAWA (MapServer)
+GeoNB_ENV_Wetlands (MapServer)
+GeoNB_SNB_Parcels (MapServer)

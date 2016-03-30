@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <meta name='viewport' content='width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no'/>
+      <title>Urban Farming in Edmonton</title>
+      <!-- Load Leaflet -->
+      <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v1.0.0-beta.2/leaflet.css"/>
+      <script src="http://cdn.leafletjs.com/leaflet/v1.0.0-beta.2/leaflet.js"></script>
+      <!-- Load ESRI Leaflet -->
+      <script src="http://cdn.jsdelivr.net/leaflet.esri/2.0.0-beta.7/esri-leaflet.js"></script>
+      <link type="text/css" rel="stylesheet" href="../Css/city.css"/>
+      <script type="text/javascript" src="../GeoJsonNeighbor/Neighborhoods.js"></script>
+    </head>
+    <body>
+      <button id="myButton"><input type="image" src="../Img/question.jpg"></a></button>
+	  <script type = "text/javascript">
+		document.getElementById("myButton").onclick = function(){
+      location.href = "https://bit.ly/1RtO94L";
+
+		};
+    </script>
+      <div id="map"></div>
+      <div id="jpg"><img src="../Img/Instruction.jpg"></div>
+      <script>
+        var defaultStyle = {
+          color: "black",
+          weight: 2.2,
+          opacity: 0.4,
+          fillOpacity: 0.1,
+          fillColor: "#29a329"
+        };
+        var southWest = L.latLng(53.337269, -113.244500),
+            northEast = L.latLng(53.717341, -113.819947),
+            bounds = L.latLngBounds(southWest, northEast);
+        var popup = new L.Popup({autoPan: false});
+        var map = L.map('map', {
+          maxBounds: bounds,
+          minZoom: 10.7,
+          maxZoom: 12.5
+        }).setView([53.534250, -113.494266]);
+        map.fitBounds(bounds);
+        L.esri.basemapLayer("Streets").addTo(map);
+        var closeTooltip;
+
+        function highlightFeature(e){
+          var layer = e.target;
+          popup.setLatLng(e.latlng);
+
+          popup.setContent('Click <a href="' + layer.feature.properties.name + '.html' + '">' + layer.feature.properties.name + ' Neighborhood</a> to see individual buildings!');
+          if (!popup._map) popup.openOn(map);
+
+
+          if(!L.Browser.ie && !L.Browser.opera){
+            layer.bringToFront();
+          }
+        }
+
+        var geojson;
+        function resetHighlight(e) {
+          geojson.resetStyle(e.target);
+
+        }
+
+        var getName = function(feature, layer){
+          layer.bindPopup(feature.properties.name);
+        };
+
+        function zoomToFeature(e){
+          map.fitBounds(e.target.getBounds());
+        }
+
+        var onEachFeature = function(feature, layer){
+          layer.on({
+            mouseover: highlightFeature,
+            mouseout: resetHighlight,
+            click: zoomToFeature
+          });
+        }
+        geojson = L.geoJson(neighborhoods, {
+          style: defaultStyle,
+          onEachFeature: onEachFeature
+        }).addTo(map);
+
+      </script>
+    </body>
+  </html>

@@ -1,0 +1,74 @@
+﻿<!-- Purpose: This script is used for the ESRI Canada App Challenge. This script calculates statistics for green roof 
+               run off for each building. This measurement widget code was manipulated for our app use.
+            There is a measurement tool that allows the user to create their own polygons to find statistics
+   Author: Alexandra Everett, Jeffery Sutherland, Jean-Yves Landry
+   Date: Feb 26 - March 4 2016-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+    <title>Green Roof Tool</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/3.15/dijit/themes/claro/claro.css">
+    <link rel="stylesheet" href="https://js.arcgis.com/3.15/esri/css/esri.css">
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="https://js.arcgis.com/3.15/"></script>
+    <script src="scripts/widget.js"></script>
+
+    
+
+</head>
+<body class="claro">
+   <div id="mainWindow" data-dojo-type="dijit/layout/BorderContainer" data-dojo-props="design:'headline',gutters:false"
+        style="width: 100%; height: 100%;">
+
+
+        <div id="map" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'center'">
+        
+           <!-- Search Bar for address locator-->
+            <div id="search"></div>
+             
+                <div style="position: absolute; right: 20px; top: 10px; z-Index: 999;">
+                    <div id="titlePane" data-dojo-type="dijit/TitlePane" data-dojo-props="title:'Green Roof Tool', closable:false, open:false">
+                        
+                        <div><b>Instructions: </b><i>Zoom to your house or building. Click your house to view your green roof statistics! To create your own measurement, turn off the Toronto Buildings layer and click the green house icon below to start drawing. Outline the portion of the roof representing your potential green roof area. Double-click to complete your measurement. Results will be displayed below! </i></div>
+                        
+                        <!--Toronto Building Layer-->
+                        <div id="layerList"></div>   
+                        
+                        <!--Measurement tool     -->     
+                        <div id="measurementDiv"></div>
+
+                       <!-- Measurement Calculations-->
+                        <div id="measurementCalc"></div>
+                        
+                        <h3>Average Runoff Amounts</h3>
+                        <div id="runoffCalc1"></div>            <!--Calculation for runoff without green roof-->
+                        <div id="runoffCalc2"></div>            <!--Calculation for runoff with low end green roof-->
+                        <div id="runoffCalc3"></div>
+                        
+                        <h3>Potential Green Roof Construction Costs</h3>
+                        <div id="lowendcost"></div>
+                        <div id="highendcost"></div>
+                        
+                        <div id="TOcontribution"></div>
+
+                        <h3>City Environmental Savings</h3>
+                        <div id="Pollution"></div>
+                        <div id="Erosion"></div>
+                        <br />
+                        <div id="disclaimer">Disclaimer: All statistics are estimates. Calculations were created based on a hypothetical rainfall scenario of magnitude similar to the July 8, 2013 Toronto Storm (126mm). The building layer was courtesy of Toronto Open Data. </div>
+                        
+                    </div>
+                    
+                </div>
+            
+
+            </div>
+       </div>
+    
+</body>
+</html>

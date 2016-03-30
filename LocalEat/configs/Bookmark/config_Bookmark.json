@@ -1,0 +1,1626 @@
+{
+  "bookmarks2D": [
+    {
+      "name": "My Dog Joe",
+      "extent": {
+        "type": "extent",
+        "xmin": -8895426.30989841,
+        "ymin": 5351087.046414463,
+        "xmax": -8894040.888760705,
+        "ymax": 5352042.509268053,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8895426.30989841,
+                "ymin": 5351087.046414463,
+                "xmax": -8894040.888760705,
+                "ymax": 5352042.509268053,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_1.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Earth To Table Bread Bar",
+      "extent": {
+        "type": "extent",
+        "xmin": -8892988.123602636,
+        "ymin": 5350534.435446459,
+        "xmax": -8892966.476397365,
+        "ymax": 5350549.364553542,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8892988.123602636,
+                "ymin": 5350534.435446459,
+                "xmax": -8892966.476397365,
+                "ymax": 5350549.364553542,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_2.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Green Smoothie Bar",
+      "extent": {
+        "type": "extent",
+        "xmin": -8890687.423602635,
+        "ymin": 5352024.635446458,
+        "xmax": -8890665.776397364,
+        "ymax": 5352039.564553541,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8890687.423602635,
+                "ymin": 5352024.635446458,
+                "xmax": -8890665.776397364,
+                "ymax": 5352039.564553541,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_3.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Aberdeen Tavern",
+      "extent": {
+        "type": "extent",
+        "xmin": -8893703.423602635,
+        "ymin": 5350291.735446459,
+        "xmax": -8893681.776397364,
+        "ymax": 5350306.664553542,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8893703.423602635,
+                "ymin": 5350291.735446459,
+                "xmax": -8893681.776397364,
+                "ymax": 5350306.664553542,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_4.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Butcher and the Vegan",
+      "extent": {
+        "type": "extent",
+        "xmin": -8890367.786279868,
+        "ymin": 5352182.272769227,
+        "xmax": -8890346.139074598,
+        "ymax": 5352197.20187631,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8890367.786279868,
+                "ymin": 5352182.272769227,
+                "xmax": -8890346.139074598,
+                "ymax": 5352197.20187631,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_5.png",
+      "isInWebmap": false
+    },
+    {
+      "name": "Chuck's Burger Bar Inc.",
+      "extent": {
+        "type": "extent",
+        "xmin": -8892866.623602636,
+        "ymin": 5350848.435446459,
+        "xmax": -8892844.976397365,
+        "ymax": 5350863.364553542,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8892866.623602636,
+                "ymin": 5350848.435446459,
+                "xmax": -8892844.976397365,
+                "ymax": 5350863.364553542,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_6.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Collin's Brewhouse",
+      "extent": {
+        "type": "extent",
+        "xmin": -8900569.323602635,
+        "ymin": 5352632.935446459,
+        "xmax": -8900547.676397365,
+        "ymax": 5352647.864553542,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8900569.323602635,
+                "ymin": 5352632.935446459,
+                "xmax": -8900547.676397365,
+                "ymax": 5352647.864553542,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_7.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Delirious Burger Co",
+      "extent": {
+        "type": "extent",
+        "xmin": -8895051.723602636,
+        "ymin": 5352003.0354464585,
+        "xmax": -8895030.076397365,
+        "ymax": 5352017.9645535415,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8895051.723602636,
+                "ymin": 5352003.0354464585,
+                "xmax": -8895030.076397365,
+                "ymax": 5352017.9645535415,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_8.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Earth Shake",
+      "extent": {
+        "type": "extent",
+        "xmin": -8891177.123602636,
+        "ymin": 5351186.335446458,
+        "xmax": -8891155.476397365,
+        "ymax": 5351201.264553541,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8891177.123602636,
+                "ymin": 5351186.335446458,
+                "xmax": -8891155.476397365,
+                "ymax": 5351201.264553541,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_9.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Jack & Lois Diner",
+      "extent": {
+        "type": "extent",
+        "xmin": -8890738.523602635,
+        "ymin": 5351922.335446458,
+        "xmax": -8890716.876397364,
+        "ymax": 5351937.264553541,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8890738.523602635,
+                "ymin": 5351922.335446458,
+                "xmax": -8890716.876397364,
+                "ymax": 5351937.264553541,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_10.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Maccheroni Cucina Alfresco",
+      "extent": {
+        "type": "extent",
+        "xmin": -8897376.223602636,
+        "ymin": 5351315.335446458,
+        "xmax": -8897354.576397365,
+        "ymax": 5351330.264553541,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8897376.223602636,
+                "ymin": 5351315.335446458,
+                "xmax": -8897354.576397365,
+                "ymax": 5351330.264553541,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_11.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Radius Cafe",
+      "extent": {
+        "type": "extent",
+        "xmin": -8891191.623602636,
+        "ymin": 5350455.335446458,
+        "xmax": -8891169.976397365,
+        "ymax": 5350470.264553541,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8891191.623602636,
+                "ymin": 5350455.335446458,
+                "xmax": -8891169.976397365,
+                "ymax": 5350470.264553541,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_12.png",
+      "isInWebmap": false
+    },
+    {
+      "name": "Rapscallion",
+      "extent": {
+        "type": "extent",
+        "xmin": -8890963.223602636,
+        "ymin": 5350219.0354464585,
+        "xmax": -8890941.576397365,
+        "ymax": 5350233.9645535415,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8890963.223602636,
+                "ymin": 5350219.0354464585,
+                "xmax": -8890941.576397365,
+                "ymax": 5350233.9645535415,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_13.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Rawlicious",
+      "extent": {
+        "type": "extent",
+        "xmin": -8895207.723602636,
+        "ymin": 5351898.0354464585,
+        "xmax": -8895186.076397365,
+        "ymax": 5351912.9645535415,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8895207.723602636,
+                "ymin": 5351898.0354464585,
+                "xmax": -8895186.076397365,
+                "ymax": 5351912.9645535415,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_14.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Rousseau House Restaurant",
+      "extent": {
+        "type": "extent",
+        "xmin": -8902877.223602636,
+        "ymin": 5346705.0354464585,
+        "xmax": -8902855.576397365,
+        "ymax": 5346719.9645535415,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8902877.223602636,
+                "ymin": 5346705.0354464585,
+                "xmax": -8902855.576397365,
+                "ymax": 5346719.9645535415,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_15.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "The Burnt Tongue",
+      "extent": {
+        "type": "extent",
+        "xmin": -8890757.923602635,
+        "ymin": 5351698.135446458,
+        "xmax": -8890736.276397364,
+        "ymax": 5351713.064553541,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8890757.923602635,
+                "ymin": 5351698.135446458,
+                "xmax": -8890736.276397364,
+                "ymax": 5351713.064553541,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_16.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "The Ship",
+      "extent": {
+        "type": "extent",
+        "xmin": -8891099.323602635,
+        "ymin": 5350423.935446459,
+        "xmax": -8891077.676397365,
+        "ymax": 5350438.864553542,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8891099.323602635,
+                "ymin": 5350423.935446459,
+                "xmax": -8891077.676397365,
+                "ymax": 5350438.864553542,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_17.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Two Black Sheep",
+      "extent": {
+        "type": "extent",
+        "xmin": -8890889.823602635,
+        "ymin": 5350363.735446459,
+        "xmax": -8890868.176397365,
+        "ymax": 5350378.664553542,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8890889.823602635,
+                "ymin": 5350363.735446459,
+                "xmax": -8890868.176397365,
+                "ymax": 5350378.664553542,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_18.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Ottawa Street Farmer's Market",
+      "extent": {
+        "type": "extent",
+        "xmin": -8885226.216847315,
+        "ymin": 5349808.374187085,
+        "xmax": -8885204.569642045,
+        "ymax": 5349823.303294168,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8885226.216847315,
+                "ymin": 5349808.374187085,
+                "xmax": -8885204.569642045,
+                "ymax": 5349823.303294168,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_19.png",
+      "isInWebmap": false
+    },
+    {
+      "name": "Farm Fresh Country Market",
+      "extent": {
+        "type": "extent",
+        "xmin": -8874370.923602635,
+        "ymin": 5346606.835446458,
+        "xmax": -8874349.276397364,
+        "ymax": 5346621.764553541,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8874370.923602635,
+                "ymin": 5346606.835446458,
+                "xmax": -8874349.276397364,
+                "ymax": 5346621.764553541,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_20.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Dundas Farmer's Market",
+      "extent": {
+        "type": "extent",
+        "xmin": -8900660.023602635,
+        "ymin": 5352540.5354464585,
+        "xmax": -8900638.376397364,
+        "ymax": 5352555.4645535415,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8900660.023602635,
+                "ymin": 5352540.5354464585,
+                "xmax": -8900638.376397364,
+                "ymax": 5352555.4645535415,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_21.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Ancaster Farmers Market",
+      "extent": {
+        "type": "extent",
+        "xmin": -8903109.623602636,
+        "ymin": 5346103.735446459,
+        "xmax": -8903087.976397365,
+        "ymax": 5346118.664553542,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8903109.623602636,
+                "ymin": 5346103.735446459,
+                "xmax": -8903087.976397365,
+                "ymax": 5346118.664553542,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_22.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Cheese Shop on Locke",
+      "extent": {
+        "type": "extent",
+        "xmin": -8892875.023602635,
+        "ymin": 5350871.635446458,
+        "xmax": -8892853.376397364,
+        "ymax": 5350886.564553541,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8892875.023602635,
+                "ymin": 5350871.635446458,
+                "xmax": -8892853.376397364,
+                "ymax": 5350886.564553541,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_23.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Cumberland Market",
+      "extent": {
+        "type": "extent",
+        "xmin": -8888548.423602635,
+        "ymin": 5349301.435446459,
+        "xmax": -8888526.776397364,
+        "ymax": 5349316.364553542,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8888548.423602635,
+                "ymin": 5349301.435446459,
+                "xmax": -8888526.776397364,
+                "ymax": 5349316.364553542,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_24.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Hamilton Farm Market",
+      "extent": {
+        "type": "extent",
+        "xmin": -8887179.923602635,
+        "ymin": 5344093.235446459,
+        "xmax": -8887158.276397364,
+        "ymax": 5344108.164553542,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8887179.923602635,
+                "ymin": 5344093.235446459,
+                "xmax": -8887158.276397364,
+                "ymax": 5344108.164553542,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_25.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Hamilton Market",
+      "extent": {
+        "type": "extent",
+        "xmin": -8891156.923602635,
+        "ymin": 5351461.635446458,
+        "xmax": -8891135.276397364,
+        "ymax": 5351476.564553541,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8891156.923602635,
+                "ymin": 5351461.635446458,
+                "xmax": -8891135.276397364,
+                "ymax": 5351476.564553541,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_26.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Hamilton Produce Ltd.",
+      "extent": {
+        "type": "extent",
+        "xmin": -8880663.423602635,
+        "ymin": 5346972.5354464585,
+        "xmax": -8880641.776397364,
+        "ymax": 5346987.4645535415,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8880663.423602635,
+                "ymin": 5346972.5354464585,
+                "xmax": -8880641.776397364,
+                "ymax": 5346987.4645535415,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_27.png",
+      "isInWebmap": false
+    },
+    {
+      "name": "James Fruits & Vegetables",
+      "extent": {
+        "type": "extent",
+        "xmin": -8891197.523602635,
+        "ymin": 5350445.335446458,
+        "xmax": -8891175.876397364,
+        "ymax": 5350460.264553541,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8891197.523602635,
+                "ymin": 5350445.335446458,
+                "xmax": -8891175.876397364,
+                "ymax": 5350460.264553541,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_28.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "James Market",
+      "extent": {
+        "type": "extent",
+        "xmin": -8891200.023602635,
+        "ymin": 5350466.935446459,
+        "xmax": -8891178.376397364,
+        "ymax": 5350481.864553542,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8891200.023602635,
+                "ymin": 5350466.935446459,
+                "xmax": -8891178.376397364,
+                "ymax": 5350481.864553542,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_29.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Locke Street Meats and Deli",
+      "extent": {
+        "type": "extent",
+        "xmin": -8892847.123602636,
+        "ymin": 5350827.335446458,
+        "xmax": -8892825.476397365,
+        "ymax": 5350842.264553541,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8892847.123602636,
+                "ymin": 5350827.335446458,
+                "xmax": -8892825.476397365,
+                "ymax": 5350842.264553541,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_30.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Morden's Organic Farm Market",
+      "extent": {
+        "type": "extent",
+        "xmin": -8906130.323602635,
+        "ymin": 5356520.5354464585,
+        "xmax": -8906108.676397365,
+        "ymax": 5356535.4645535415,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8906130.323602635,
+                "ymin": 5356520.5354464585,
+                "xmax": -8906108.676397365,
+                "ymax": 5356535.4645535415,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_31.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Real Food market and Kitchen",
+      "extent": {
+        "type": "extent",
+        "xmin": -8895046.311801318,
+        "ymin": 5352006.76772323,
+        "xmax": -8895035.488198683,
+        "ymax": 5352014.23227677,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8895046.311801318,
+                "ymin": 5352006.76772323,
+                "xmax": -8895035.488198683,
+                "ymax": 5352014.23227677,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_32.png",
+      "isInWebmap": false
+    },
+    {
+      "name": "VG meats",
+      "extent": {
+        "type": "extent",
+        "xmin": -8880433.260925403,
+        "ymin": 5339742.835446458,
+        "xmax": -8880411.613720132,
+        "ymax": 5339757.764553541,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8880433.260925403,
+                "ymin": 5339742.835446458,
+                "xmax": -8880411.613720132,
+                "ymax": 5339757.764553541,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_33.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Hickory Farms",
+      "extent": {
+        "type": "extent",
+        "xmin": -8890194.111801317,
+        "ymin": 5345111.0677232295,
+        "xmax": -8890183.288198682,
+        "ymax": 5345118.53227677,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8890194.111801317,
+                "ymin": 5345111.0677232295,
+                "xmax": -8890183.288198682,
+                "ymax": 5345118.53227677,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_73.png",
+      "isInWebmap": false
+    },
+    {
+      "name": "Mustard Seed",
+      "extent": {
+        "type": "extent",
+        "xmin": -8892416.311801318,
+        "ymin": 5352558.0677232295,
+        "xmax": -8892405.488198683,
+        "ymax": 5352565.53227677,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8892416.311801318,
+                "ymin": 5352558.0677232295,
+                "xmax": -8892405.488198683,
+                "ymax": 5352565.53227677,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_74.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Dundurn Market",
+      "extent": {
+        "type": "extent",
+        "xmin": -8893632.311801318,
+        "ymin": 5350253.96772323,
+        "xmax": -8893621.488198683,
+        "ymax": 5350261.4322767705,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8893632.311801318,
+                "ymin": 5350253.96772323,
+                "xmax": -8893621.488198683,
+                "ymax": 5350261.4322767705,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_75.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Global Village Market",
+      "extent": {
+        "type": "extent",
+        "xmin": -8894832.011801317,
+        "ymin": 5352082.76772323,
+        "xmax": -8894821.188198682,
+        "ymax": 5352090.23227677,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8894832.011801317,
+                "ymin": 5352082.76772323,
+                "xmax": -8894821.188198682,
+                "ymax": 5352090.23227677,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_76.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Brown Dog Coffee Shop",
+      "extent": {
+        "type": "extent",
+        "xmin": -8892846.716847315,
+        "ymin": 5350784.274187085,
+        "xmax": -8892825.069642045,
+        "ymax": 5350799.203294168,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8892846.716847315,
+                "ymin": 5350784.274187085,
+                "xmax": -8892825.069642045,
+                "ymax": 5350799.203294168,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_77.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Democracy on Locke",
+      "extent": {
+        "type": "extent",
+        "xmin": -8892884.323602635,
+        "ymin": 5350825.135446458,
+        "xmax": -8892862.676397365,
+        "ymax": 5350840.064553541,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8892884.323602635,
+                "ymin": 5350825.135446458,
+                "xmax": -8892862.676397365,
+                "ymax": 5350840.064553541,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_78.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Mulberry Street Coffeehouse",
+      "extent": {
+        "type": "extent",
+        "xmin": -8890767.660925403,
+        "ymin": 5351910.735446459,
+        "xmax": -8890746.013720132,
+        "ymax": 5351925.664553542,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8890767.660925403,
+                "ymin": 5351910.735446459,
+                "xmax": -8890746.013720132,
+                "ymax": 5351925.664553542,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_79.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Pinecone Coffee",
+      "extent": {
+        "type": "extent",
+        "xmin": -8890914.523602635,
+        "ymin": 5350314.5354464585,
+        "xmax": -8890892.876397364,
+        "ymax": 5350329.4645535415,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8890914.523602635,
+                "ymin": 5350314.5354464585,
+                "xmax": -8890892.876397364,
+                "ymax": 5350329.4645535415,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_80.png",
+      "isInWebmap": false
+    },
+    {
+      "name": "Redcrow Coffee",
+      "extent": {
+        "type": "extent",
+        "xmin": -8891294.423602635,
+        "ymin": 5350130.0354464585,
+        "xmax": -8891272.776397364,
+        "ymax": 5350144.9645535415,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8891294.423602635,
+                "ymin": 5350130.0354464585,
+                "xmax": -8891272.776397364,
+                "ymax": 5350144.9645535415,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_81.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "St. James Espresso Bar and Eatery",
+      "extent": {
+        "type": "extent",
+        "xmin": -8890894.023602635,
+        "ymin": 5351565.235446459,
+        "xmax": -8890872.376397364,
+        "ymax": 5351580.164553542,
+        "spatialReference": {
+          "wkid": 102100
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8890894.023602635,
+                "ymin": 5351565.235446459,
+                "xmax": -8890872.376397364,
+                "ymax": 5351580.164553542,
+                "spatialReference": {
+                  "wkid": 102100
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_82.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Beyond the Batter",
+      "extent": {
+        "type": "extent",
+        "xmin": -8890783.823602635,
+        "ymin": 5351075.235446459,
+        "xmax": -8890762.176397365,
+        "ymax": 5351090.164553542,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8890783.823602635,
+                "ymin": 5351075.235446459,
+                "xmax": -8890762.176397365,
+                "ymax": 5351090.164553542,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_83.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Cake and Loaf Bakery",
+      "extent": {
+        "type": "extent",
+        "xmin": -8893569.323602635,
+        "ymin": 5350413.735446459,
+        "xmax": -8893547.676397365,
+        "ymax": 5350428.664553542,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8893569.323602635,
+                "ymin": 5350413.735446459,
+                "xmax": -8893547.676397365,
+                "ymax": 5350428.664553542,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_84.jpeg",
+      "isInWebmap": false
+    },
+    {
+      "name": "Locke Street Bakery",
+      "extent": {
+        "type": "extent",
+        "xmin": -8892884.323602635,
+        "ymin": 5350825.135446458,
+        "xmax": -8892862.676397365,
+        "ymax": 5350840.064553541,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        },
+        "cache": {
+          "_parts": [
+            {
+              "extent": {
+                "type": "extent",
+                "xmin": -8892884.323602635,
+                "ymin": 5350825.135446458,
+                "xmax": -8892862.676397365,
+                "ymax": 5350840.064553541,
+                "spatialReference": {
+                  "wkid": 102100,
+                  "latestWkid": 3857
+                }
+              },
+              "frameIds": [
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "thumbnail": "${appPath}/configs/Bookmark/thumbnail_85.jpeg",
+      "isInWebmap": false
+    }
+  ],
+  "bookmarks3D": [],
+  "flyTime": 3000
+}

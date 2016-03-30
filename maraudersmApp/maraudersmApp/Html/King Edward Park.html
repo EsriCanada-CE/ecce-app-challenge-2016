@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+<meta name='viewport' content='width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no'/>
+<link rel='stylesheet' href='http://cdn.leafletjs.com/leaflet/v1.0.0-beta.2/leaflet.css'/>
+<script src='http://cdn.leafletjs.com/leaflet/v1.0.0-beta.2/leaflet.js'></script>
+<script src='http://cdn.jsdelivr.net/leaflet.esri/2.0.0-beta.7/esri-leaflet.js'></script>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/leaflet.esri.geocoder/2.0.3/esri-leaflet-geocoder.css">
+<script src= "http://cdn.jsdelivr.net/leaflet.esri.geocoder/2.0.3/esri-leaflet-geocoder.js"></script>
+<script src="../Js/leaflet-measure.min.js"></script>
+<link rel= "stylesheet" href="../Css/leaflet-measure.css">
+<link type='text/css' rel='stylesheet' href='../Css/style.css'/>
+<script type="text/javascript" src='../GeoJsonBuild/King Edward Park.js'></script>
+<script type='text/javascript' src='../GeoJsonNeighbor/King Edward Park_neighbor.js'>
+</script>
+</head>
+<body>
+<button id="myButton"><input type="image" src="../Img/home.jpg"></a></button>
+	  <script type = "text/javascript">
+		document.getElementById("myButton").onclick = function(){
+		  location.href = "2ndPage.html";
+		};
+</script>
+<div id="map"></div>
+<div id="basemaps-wrapper" class="leaflet-bar">
+  <select name= "basemaps" id="basemaps" onChange="changeBasemap(basemaps)">
+	<option value="Streets">Streets</option>
+	<option value="Imagery">Imagery</option>
+  </select>
+</div>
+<script>
+var defaultStyle = {
+  color: "black",
+  weight: 2,
+  opacity: 0.5,
+  fillOpacity: 0.5,
+  fillColor: "#29a329"
+};
+
+var clearStyle = {
+	color: "black",
+	weight: 3,
+	fillOpacity: 0
+};
+var map = L.map("map", {
+measureControl: true,
+}).setView([
+53.5152 , -113.453], 16);
+L.esri.basemapLayer('Streets').addTo(map);
+var infoft = function(feature, layer){
+layer.bindPopup('<h3>With a rain collector, this building can harvest:</h3><h3><font color="#8fa8ee"><strong>' +
+feature.properties.Liters + "</font></strong> L every growing season</h3>");
+};
+
+var layer = L.esri.basemapLayer(('Streets'), {maxZoom: 19.9}).addTo(map);
+var layerLabels;
+L.geoJson(KingEdwardPark, {
+style: clearStyle
+}).addTo(map);
+L.geoJson(KingEdwardParkbuild, {
+style: defaultStyle,
+onEachFeature: infoft
+}).addTo(map);
+function setBasemap(basemap) {
+  if (layer) {
+	map.removeLayer(layer);
+  }
+  layer = L.esri.basemapLayer((basemap), {
+  maxZoom: 19.9});
+  map.addLayer(layer);
+  if (layerLabels) {
+	map.removeLayer(layerLabels);
+  }
+  if (basemap === 'Imagery'){
+	layerLabels = L.esri.basemapLayer(basemap + 'Labels');
+	map.addLayer(layerLabels);
+  }
+}
+
+function changeBasemap(basemaps){
+  var basemap = basemaps.value;
+  setBasemap(basemap);
+}
+var arcgisOnline = L.esri.Geocoding.arcgisOnlineProvider();
+var searchControl = L.esri.Geocoding.geosearch({providers: [arcgisOnline]}).addTo(map);
+var results = L.layerGroup().addTo(map);
+searchControl.on("results", function(data){
+  results.clearLayers();
+  for (var i = data.results.length - 1; i >= 0; i--){
+	results.addLayer(L.marker(data.results[i].latlng));
+  }
+});
+</script>
+</body>
+</html>

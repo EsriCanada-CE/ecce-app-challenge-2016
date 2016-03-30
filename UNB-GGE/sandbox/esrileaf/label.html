@@ -1,0 +1,95 @@
+<html>
+<head>
+  <meta charset=utf-8/>
+  <title>Labeling Features</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'/>
+
+  <!-- Load Leaflet from CDN-->
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v1.0.0-beta.2/leaflet.css"/>
+  <script src="http://cdn.leafletjs.com/leaflet/v1.0.0-beta.2/leaflet.js"></script>
+
+  <!-- Load Esri Leaflet from CDN -->
+  <script src="//cdn.jsdelivr.net/leaflet.esri/2.0.0-beta.7/esri-leaflet.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #map {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+    }
+  </style>
+</head>
+<body>
+
+<style>
+  .label {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -1em;
+  }
+
+  .label div {
+    position: relative;
+    left: -50%;
+    text-shadow: 0px 2px 1px rgba(255, 255, 255, 0.85);
+  }
+</style>
+
+<div id="map"></div>
+
+<script>
+  var map = L.map('map').setView([45.526, -122.667], 15);
+
+  L.esri.basemapLayer('Gray').addTo(map);
+
+  var neighborhoods = L.esri.featureLayer({
+    url  : '//services.arcgis.com/rOo16HdIMeOBI4Mb/arcgis/rest/services/Neighborhoods_pdx/FeatureServer/0',
+    style: function () {
+      return {
+        color : '#5B7CBA',
+        weight: 2
+      };
+    }
+  }).addTo(map);
+
+  var labels = {};
+
+  neighborhoods.on('createfeature', function (e) {
+    var id = e.feature.id;
+    var feature = neighborhoods.getFeature(id);
+    var center = feature.getBounds().getCenter();
+    var label = L.marker(center, {
+      icon: L.divIcon({
+        iconSize : null,
+        className: 'label',
+        html     : '<div>' + e.feature.properties.NAME + '</div>'
+      })
+    }).addTo(map);
+    labels[id] = label;
+  });
+
+  neighborhoods.on('addfeature', function (e) {
+    var label = labels[e.feature.id];
+    if (label) {
+      label.addTo(map);
+    }
+  });
+
+  neighborhoods.on('removefeature', function (e) {
+    var label = labels[e.feature.id];
+    if (label) {
+      map.removeLayer(label);
+    }
+  });
+</script>
+
+</body>
+</html>

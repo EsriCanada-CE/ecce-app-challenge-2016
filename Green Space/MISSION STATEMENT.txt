@@ -1,0 +1,11 @@
+Mission Statements
+
+    Our application is an evaluation of sustainability of Victoria's neighbourhoods. It tries to accomplish giving an insight to how much of a specific neighbourhood is part of a green-area space. The app is intended to be informative, in respect to the quality of natural resources available, as well as good life quality in terms of having enough kilometers of Bike Routes (used for recreation, health of the population, reduction of carbon emissions).
+
+
+Characteristics/Features of the Application.
+
+    Our application focuses on the orientation to healthy environment and better life quality. This application provides the user the possibility of getting to visualize  what locations inside of Victoria are the most sustainable. This is done in terms of the percentage of Green Space in each neighbourhood, as well as the lengthin kilometers of Biking Routes within each neighbourhood.
+
+    When clicking inside a specific neighbourhood in Victoria, our application displays for you the percentage of green space within it.
+It also displays the total length in kilometers of Bike Routes within that specific neighbourhood.
