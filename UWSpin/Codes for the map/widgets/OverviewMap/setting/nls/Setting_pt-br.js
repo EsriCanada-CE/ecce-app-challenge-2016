@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/OverviewMap/setting/nls/strings":{visible:"Mostrar mapa de vis\u00e3o geral por padr\u00e3o",minWidth:"Largura M\u00edn.",minHeight:"Altura M\u00edn.",maxWidth:"Largura M\u00e1x.",maxHeight:"Altura M\u00e1x.",minText:"M\u00ednimo",maxText:"M\u00e1ximo",attachText:"Especifica qual canto do mapa anexar este widget.",expandText:"Expandir inicialmente o widget",topLeft:"Superior Esquerdo",topRight:"Superior Direito",bottomLeft:"Inferior Esquerdo",bottomRight:"Inferior Direito",_localized:{}}});

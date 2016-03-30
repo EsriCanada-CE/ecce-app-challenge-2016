@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Geoprocessing/nls/strings":{_widgetLabel:"Geobearbetning",execute:"Utf\u00f6r",help:"Hj\u00e4lp",input:"Indata",output:"Utdata",executing:"K\u00f6r",requiredInfo:"\u00e4r obligatoriskt.",drawnOnMap:"Resultatet ritas p\u00e5 kartan.",clear:"Rensa",error:"Fel",noToolConfig:"Ingen f\u00f6rkonfigurerad geobearbetnings\u00e5tg\u00e4rd \u00e4r tillg\u00e4nglig.",useUrlForGPInput:"URL",useUploadForGPInput:"\u00d6verf\u00f6r fil",selectFileToUpload:"V\u00e4lj fil ...",upload:"\u00d6verf\u00f6r",
+rasterFormat:"Rasterdataformat",noFileSelected:"Ingen fil har valts!",uploadSuccess:"Filen har \u00f6verf\u00f6rts!",url:"URL",showLayerContent:"Visa lagrets inneh\u00e5ll",invalidUrl:"Ogiltig URL f\u00f6r geoobjektstj\u00e4nsten.",Feet:"Fot",Yards:"Yard",Miles:"Engelska mil",NauticalMiles:"Nautiska mil",Meter:"Meter",Kilometers:"Kilometer",urlPlaceholder:"URL till geoobjektsupps\u00e4ttning",addShapefile:"L\u00e4gg till shapefil",generateShapefileError:"Fel n\u00e4r shapefilen skapades. Kontrollera: ",
+cleared:"Resultaten har rensats.",enlargeView:"F\u00f6rstora vy",exportOutput:"Exportera",_localized:{}}});

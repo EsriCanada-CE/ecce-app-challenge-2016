@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/ReviewerDashboard/setting/nls/strings":{drsSOEURL:"Data Reviewer Server-URL",chartSection:"Antal udsnit/s\u00f8jler i diagrammet",selectByGeography:"Medtag filter efter geografi",selectUrl:"Tjenestelag for filter efter geografi",selectMapUrl:"Tjeneste for filter efter geografi",geometryServiceURL:"Geometritjeneste-URL",includeFieldNames:"V\u00e6lg felter",fieldNames:"Feltnavne",lifecyclePhaseFieldName:"LIFECYCLEPHASE",setSource:"Indstil",defaultFieldName:"alvorlighed",warning:"Forkert input",
+includeDefaultFieldName:"Der skal v\u00e6lges standardfeltnavn",selectFieldWarning:"Kun \u00e9t felt skal v\u00e6re synligt",defaultFieldNotVisible:"Standardfeltet skal v\u00e6re synligt",batchJobCheckGroup:"batchjobcheckgroup",defaultColumn:"Standard",visibleColumn:"Visible",fieldNameColumn:"Dashboard-feltnavn",aliasColumn:"Alias",_localized:{}}});

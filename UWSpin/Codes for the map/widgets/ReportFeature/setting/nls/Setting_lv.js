@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/ReportFeature/setting/nls/strings":{drsUrl:"Datu p\u0101rskat\u012bt\u0101ja servera URL",includeReportedBy:"P\u0101rskat\u012bt\u0101ja tehni\u0137is",label:"Sl\u0101nis",show:"Iek\u013caut",alias:"Aizst\u0101jv\u0101rds",warning:"Nepareiza ievade",defaultSessionId:"Noklus\u0113juma sesija",setSource:"Kopa",getCurrentUser:"Lietot\u0101jv\u0101rds, ar kuru lietot\u0101js pierakst\u012bjies",getDefaultUser:"Ievadiet noklus\u0113juma v\u0113rt\u012bbu",getUser:"At\u013caut lietot\u0101ja ievadi",
+userName:"Ievadiet lietot\u0101jv\u0101rdu",noUserName:"L\u016bdzu, ievadiet noklus\u0113juma lietot\u0101jv\u0101rdu.",noLayers:"T\u012bmek\u013ca kart\u0113 nav darb\u012bbas sl\u0101\u0146u.",noSessionName:"L\u016bdzu, atlasiet sesiju.",revTechName:"P\u0101rskat\u012bt\u0101ja tehni\u0137a v\u0101rds un uzv\u0101rds",_localized:{}}});

@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Stream/nls/strings":{_widgetLabel:"Stream",noStreamLayer:"Ingen indstillinger for pr\u00e6konfigurerede stream-lag er tilg\u00e6ngelige.",streamControls:"Kontrolelementer for streaming",startStreaming:"Start streaming",stopStreaming:"Stop streaming",clearObservation:"Slet tidligere observationer",streamFilter:"Filtr\u00e9r",showAllObservations:"Vis alle observationer",showMapAreaObservations:"Begr\u00e6ns observationerne til det aktuelle kortomr\u00e5de",showObservationsByDrawing:"Begr\u00e6ns observationer ved at tegne p\u00e5 kortet",
+useSpatialFilter:"Brug spatialt filter til at begr\u00e6nse observationer",useAttributeFilter:"Brug attributfilter til at begr\u00e6nse observationer",selectStreamLayer:"V\u00e6lg et stream-lag",previousObservations:"Tegn tidligere observationer",applyAttrFilter:"Anvend",_localized:{}}});

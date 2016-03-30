@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/LayerList/nls/strings":{_widgetLabel:"List\u0103 de straturi tematice",titleBasemap:"H\u0103r\u0163i fundal",titleLayers:"Straturi tematice opera\u0163ionale",labelLayer:"Nume strat tematic",itemZoomTo:"Transfocare la",itemTransparency:"Transparen\u0163\u0103",itemTransparent:"Transparent",itemOpaque:"Opac",itemMoveUp:"Deplasare \u00een sus",itemMoveDown:"Deplasare \u00een jos",itemDesc:"Descriere",itemDownload:"Desc\u0103rcare",itemToAttributeTable:"Deschidere tabel de atribute",
+itemShowItemDetails:"Afi\u015fare detalii element",empty:"gol",removePopup:"Dezactivare mesaje pop-up",enablePopup:"Activare pop-up",_localized:{}}});

@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/DistrictLookup/nls/strings":{_widgetLabel:"DistrictLookup",searchHeaderText:"Pesquisar um endere\u00e7o ou localizar no mapa",mouseOverTooltip:"Clique para adicionar ponto",informationTabTitle:"Informa\u00e7\u00f5es",directionTabTitle:"Dire\u00e7\u00f5es",invalidPolygonLayerMsg:"A camada de pol\u00edgono n\u00e3o est\u00e1 configurada corretamente",invalidRelatedPointLayerMsg:"A camada de Ponto Relacionado n\u00e3o est\u00e1 configurada corretamente",noPrecinctFoundMsg:"Nenhum pol\u00edgono localizado para este endere\u00e7o ou local",
+noPollingPlaceFoundMsg:"N\u00e3o foi poss\u00edvel localizar o ponto associado com o pol\u00edgono",attachmentHeader:"Anexos",failedToGenerateRouteMsg:"Falha ao gerar rota.",allPopupsDisabledMsg:"Pop-ups n\u00e3o est\u00e3o configurados, os resultados n\u00e3o podem ser exibidos.",_localized:{}}});

@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/RelatedTableCharts/nls/strings":{_widgetLabel:"Liittyv\u00e4t taulukkokaaviot",searchHeaderText:"Hae osoitetta tai etsi kartalta",addressInfowindowTitle:"Haettu sijainti",mouseOverTooltip:"N\u00e4yt\u00e4 kaavio(t) napsauttamalla",errMsgNoResultsFound:"Tulosta ei l\u00f6ytynyt",errMsgNoFeaturesFound:"Kohteita ei l\u00f6ytynyt",noChatsConfigured:"Ennalta m\u00e4\u00e4ritettyj\u00e4 kaavioita ei ole k\u00e4ytett\u00e4viss\u00e4",_localized:{}}});

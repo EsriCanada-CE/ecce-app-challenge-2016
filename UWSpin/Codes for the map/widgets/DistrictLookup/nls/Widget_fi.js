@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/DistrictLookup/nls/strings":{_widgetLabel:"DistrictLookup",searchHeaderText:"Hae osoitetta tai etsi kartalta",mouseOverTooltip:"Lis\u00e4\u00e4 piste napsauttamalla",informationTabTitle:"Tiedot",directionTabTitle:"Reitti",invalidPolygonLayerMsg:"Aluekarttatasoa ei ole m\u00e4\u00e4ritetty oikein",invalidRelatedPointLayerMsg:"Liittyv\u00e4\u00e4 pistekarttatasoa ei ole m\u00e4\u00e4ritetty oikein",noPrecinctFoundMsg:"T\u00e4lle osoitteelle tai sijainnille ei l\u00f6ydy aluetta",noPollingPlaceFoundMsg:"Alueeseen liitetty\u00e4 pistett\u00e4 ei l\u00f6ytynyt",
+attachmentHeader:"Liitteet",failedToGenerateRouteMsg:"Reitin luonti ep\u00e4onnistui.",allPopupsDisabledMsg:"Ponnahdusikkunoita ei ole m\u00e4\u00e4ritetty eik\u00e4 tuloksia voida n\u00e4ytt\u00e4\u00e4.",_localized:{}}});

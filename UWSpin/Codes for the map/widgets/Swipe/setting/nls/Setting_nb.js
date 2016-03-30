@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Swipe/setting/nls/strings":{styleText:"Velg en stil for sveipeverkt\u00f8yet",vertical:"Vertikal stolpe",horizontal:"Vannrett stolpe",scope:"Kikkert",layerText:"Velg laget du vil sveipe som standard",spyglassText:"Velg laget som skal vises i forst\u00f8rrelsesglasset som standard.",layerHint:"Merk: Hvis laget er skjult av overliggende lag, har ikke sveipingen noen virkning.",_localized:{}}});

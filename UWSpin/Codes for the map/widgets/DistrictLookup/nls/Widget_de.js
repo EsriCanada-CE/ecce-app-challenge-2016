@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/DistrictLookup/nls/strings":{_widgetLabel:"DistrictLookup",searchHeaderText:"Eine Adresse suchen oder auf der Karte verorten",mouseOverTooltip:"Klicken, um einen Punkt hinzuzuf\u00fcgen",informationTabTitle:"Informationen",directionTabTitle:"Wegbeschreibung",invalidPolygonLayerMsg:"Polygon-Layer ist nicht ordnungsgem\u00e4\u00df konfiguriert",invalidRelatedPointLayerMsg:"Zugeh\u00f6riger Punkt-Layer ist nicht ordnungsgem\u00e4\u00df konfiguriert",noPrecinctFoundMsg:"F\u00fcr diese Adresse oder Position wurde kein Polygon gefunden",
+noPollingPlaceFoundMsg:"Der mit dem Polygon verkn\u00fcpfte Punkt konnte nicht gefunden werden",attachmentHeader:"Anlagen",failedToGenerateRouteMsg:"Route konnte nicht erstellt werden.",allPopupsDisabledMsg:"Pop-ups sind nicht konfiguriert, Ergebnisse k\u00f6nnen nicht angezeigt werden.",_localized:{}}});

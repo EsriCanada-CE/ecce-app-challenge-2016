@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/DistrictLookup/nls/strings":{_widgetLabel:"DistrictLookup",searchHeaderText:"S\u00f8g efter en adresse eller position p\u00e5 kortet",mouseOverTooltip:"Klik for at tilf\u00f8je et punkt",informationTabTitle:"Oplysninger",directionTabTitle:"K\u00f8rselsvejledninger",invalidPolygonLayerMsg:"Polygonlag er ikke konfigureret korrekt",invalidRelatedPointLayerMsg:"Tilknyttet punktlag er ikke konfigureret korrekt",noPrecinctFoundMsg:"Ingen polygon fundet for denne adresse eller position",
+noPollingPlaceFoundMsg:"Kunne ikke finde det punkt, der er knyttet til polygonen",attachmentHeader:"Vedh\u00e6ftninger",failedToGenerateRouteMsg:"Kunne ikke generere rute.",allPopupsDisabledMsg:"Pop-ups er ikke konfigureret, resultater kan ikke vises.",_localized:{}}});
