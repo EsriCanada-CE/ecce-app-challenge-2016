@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/IncidentAnalysis/nls/strings":{_widgetLabel:"Analyse des incidents",incident:"Incident",weather:"Temps",locate_incident:"Localiser l'incident",clear_incidents:"Effacer les incidents",reverse_geocoded_address:"Adresse la plus proche",reverse_geocoded_error:"Indisponible",miles:"Miles",kilometers:"Kilom\u00e8tres",feet:"Pieds",meters:"M\u00e8tres",yards:"Yards",nauticalMiles:"Milles nautiques",now:"MAINTENANT",wind:"VENT",SUN:"DIM",MON:"LUN",TUE:"MAR",WED:"MER",THU:"JEU",FRI:"VEN",
+SAT:"SAM",defaultTabMsg:"Aucun incident identifi\u00e9.",actionLabel:"D\u00e9finir comme incident",useMapExtent:"Utiliser l'\u00e9tendue de la carte actuelle",noFeaturesFound:"Aucune entit\u00e9 n\u2019a \u00e9t\u00e9 trouv\u00e9e.",downloadCSV:"TELECHARGER CSV",sum:"SOMME",min:"MIN",max:"MAX",avg:"AVG",count:"TOTAL",area:"SURFACE",length:"LENGTH",_localized:{}}});

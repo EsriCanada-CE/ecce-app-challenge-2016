@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/NearMe/nls/strings":{_widgetLabel:"NearMe",searchHeaderText:"\u641c\u5c0b\u5730\u5716\u4e0a\u7684\u5730\u5740\u6216\u4f4d\u7f6e",invalidSearchLayerMsg:"\u641c\u5c0b\u5716\u5c64\u672a\u6b63\u78ba\u914d\u7f6e",bufferSliderText:"\u986f\u793a ${BufferDistance} ${BufferUnit} \u4e2d\u7684\u7d50\u679c",bufferSliderValueString:"\u8acb\u6307\u5b9a\u5927\u65bc 0 \u7684\u8ddd\u96e2",unableToCreateBuffer:"\u627e\u4e0d\u5230\u7d50\u679c",selectLocationToolTip:"\u6309\u4e00\u4e0b\u4ee5\u65b0\u589e\u9ede",
+noFeatureFoundText:"\u627e\u4e0d\u5230\u4efb\u4f55\u7d50\u679c ",attachmentHeader:"\u9644\u4ef6",unableToFetchResults:"\u7121\u6cd5\u5f9e\u5716\u5c64\u64f7\u53d6\u7d50\u679c:",informationTabTitle:"\u8cc7\u8a0a",directionTabTitle:"\u65b9\u5411",failedToGenerateRouteMsg:"\u7121\u6cd5\u7522\u751f\u8def\u7dda\u3002",geometryServicesNotFound:"\u5e7e\u4f55\u670d\u52d9\u4e0d\u53ef\u7528\u3002",allPopupsDisabledMsg:"\u672a\u914d\u7f6e\u5feb\u986f\u8996\u7a97\uff0c\u7121\u6cd5\u986f\u793a\u7d50\u679c\u3002",
+_localized:{}}});

@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Geoprocessing/nls/strings":{_widgetLabel:"Geot\u00f6\u00f6tlus",execute:"Teosta",help:"Abi",input:"Sisend",output:"V\u00e4ljund",executing:"Teostamine",requiredInfo:"on n\u00f5utav.",drawnOnMap:"Tulemus joonistatakse kaardile.",clear:"Puhasta",error:"Viga",noToolConfig:"Eelkonfigureeritud geot\u00f6\u00f6tluse toimingud ei ole saadaval.",useUrlForGPInput:"URL",useUploadForGPInput:"Faili \u00fcleslaadimine",selectFileToUpload:"Vali fail...",upload:"Lae \u00fcles",rasterFormat:"Rasterandmete formaat",
+noFileSelected:"\u00dchtegi faili pole valitud!",uploadSuccess:"Faili \u00fcleslaadimine oli edukas!",url:"URL",showLayerContent:"Kuva kihi sisu",invalidUrl:"Kehtetu objektiteenuse URL",Feet:"Jalad",Yards:"Jardid",Miles:"Miilid",NauticalMiles:"Meremiilid",Meter:"Meetrid",Kilometers:"Kilomeetrid",urlPlaceholder:"objektikomplekti URL",addShapefile:"Lisa Shape-fail",generateShapefileError:"Genereerige Shape-faili viga, kontrollige: ",cleared:"Tulemus on kustutatud.",enlargeView:"Suurenda vaadet",exportOutput:"Ekspordi",
+_localized:{}}});

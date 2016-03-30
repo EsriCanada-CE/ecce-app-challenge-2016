@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/DistrictLookup/nls/strings":{_widgetLabel:"DistrictLookup",searchHeaderText:"Cercare un indirizzo o individuarlo sulla mappa",mouseOverTooltip:"Fare clic per aggiungere un punto",informationTabTitle:"Informazioni",directionTabTitle:"Indicazioni stradali",invalidPolygonLayerMsg:"Layer poligono non configurato correttamente",invalidRelatedPointLayerMsg:"Layer punto correlato non configurato correttamente",noPrecinctFoundMsg:"Nessun poligono trovato per questo indirizzo o posizione",
+noPollingPlaceFoundMsg:"Impossibile trovare il punto associato al poligono",attachmentHeader:"Allegati",failedToGenerateRouteMsg:"Impossibile generare il percorso.",allPopupsDisabledMsg:"I popup non sono configurati e i risultati non possono essere visualizzati.",_localized:{}}});

@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/DistrictLookup/nls/strings":{_widgetLabel:"DistrictLookup",searchHeaderText:"Ie\u0161koti adreso arba rasti \u017eem\u0117lapyje",mouseOverTooltip:"Spustelkite ta\u0161kui prid\u0117ti",informationTabTitle:"Informacija",directionTabTitle:"Mar\u0161rutai",invalidPolygonLayerMsg:"Poligon\u0173 sluoksnis netinkamai sukonfig\u016bruotas",invalidRelatedPointLayerMsg:"Susij\u0119s ta\u0161k\u0173 sluoksnis netinkamai sukonfig\u016bruotas",noPrecinctFoundMsg:"\u0160iam adresui arba vietai nerasta joki\u0173 poligon\u0173",
+noPollingPlaceFoundMsg:"Nepavyko rasti su \u0161iuo poligonu susieto ta\u0161ko",attachmentHeader:"Priedai",failedToGenerateRouteMsg:"Nepavyko sugeneruoti mar\u0161ruto.",allPopupsDisabledMsg:"Nesukonfig\u016bruoti i\u0161kylantys langai, rezultat\u0173 pateikti negalima.",_localized:{}}});

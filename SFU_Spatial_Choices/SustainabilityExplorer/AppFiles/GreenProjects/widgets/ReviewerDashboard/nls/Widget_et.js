@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/ReviewerDashboard/nls/strings":{_widgetLabel:"\u00dclevaataja t\u00f6\u00f6laud",spatialFilterSelection:"Filtreeri tulemused geograafia p\u00f5hjal",drawSelectionArea:"Joonista tulemuse valikuala kaardile",currentSelection:"Kuva tulemused ainult praeguses kaardiulatuses",censusBlockGroup:"Kuva tulemused geograafia p\u00f5hjal",noSpatialFilter:" \u00c4ra kasuta ruumifiltrit",reviewerSessionFilter:"Filtreeri tulemused l\u00e4bivaataja seansi j\u00e4rgi",selectAttributeFilters:"Valige kuvatavad andmed",
+phaseFieldName:"lifecyclephase",statusFieldName:"lifecyclestatus",allSessions:"K\u00f5ik seansid",dashboardTab:"T\u00f6\u00f6laud",filtersTab:"Seaded",noResults:"Tulemusi ei leitud",resultsBy:"Tulemused vastavalt: ",reviewed:"Hinnang",corrected:"Parandus",verified:"Kinnitus",OtherCategory:"Muu",backButton:"Tagasi",_localized:{}}});

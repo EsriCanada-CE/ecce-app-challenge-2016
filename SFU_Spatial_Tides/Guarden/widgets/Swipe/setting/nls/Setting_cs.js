@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Swipe/setting/nls/strings":{styleText:"Zvolte styl n\u00e1stroje p\u0159ekr\u00fdv\u00e1n\u00ed.",vertical:"Svisl\u00fd pruh",horizontal:"Vodorovn\u00fd pruh",scope:"Lupa",layerText:"Vyberte v\u00fdchoz\u00ed vrstvu pro p\u0159ekr\u00fdv\u00e1n\u00ed.",spyglassText:"Vyberte v\u00fdchoz\u00ed vrstvu lupy.",layerHint:"Pozn\u00e1mka: Pokud je vrstva zakryt\u00e1 svrchn\u011bj\u0161\u00edmi vrstvami, p\u0159ekr\u00fdv\u00e1n\u00ed se nijak neprojev\u00ed.",_localized:{}}});

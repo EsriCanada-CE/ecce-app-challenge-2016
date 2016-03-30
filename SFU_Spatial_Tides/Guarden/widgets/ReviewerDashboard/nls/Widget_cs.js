@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/ReviewerDashboard/nls/strings":{_widgetLabel:"\u0158\u00eddic\u00ed panel Reviewer",spatialFilterSelection:"Filtrovat v\u00fdsledky podle polohov\u00e9ho uspo\u0159\u00e1d\u00e1n\u00ed",drawSelectionArea:"Nakreslit oblast v\u00fdb\u011bru v\u00fdsledk\u016f do mapy",currentSelection:"Zobrazit v\u00fdsledky pouze v\u00a0aktu\u00e1ln\u00edm rozsahu mapy",censusBlockGroup:"Zobrazit v\u00fdsledky podle uspo\u0159\u00e1d\u00e1n\u00ed",noSpatialFilter:" Nepou\u017e\u00edt \u017e\u00e1dn\u00fd prostorov\u00fd filtr",
+reviewerSessionFilter:"Filtrovat v\u00fdsledky podle relace Reviewer",selectAttributeFilters:"V\u00fdb\u011br informac\u00ed k\u00a0zobrazen\u00ed",phaseFieldName:"lifecyclephase",statusFieldName:"lifecyclestatus",allSessions:"V\u0161echny relace",dashboardTab:"\u0158\u00eddic\u00ed panel",filtersTab:"Nastaven\u00ed",noResults:"Nebyly nalezeny \u017e\u00e1dn\u00e9 v\u00fdsledky.",resultsBy:"V\u00fdsledky podle: ",reviewed:"Zkontrolovat",corrected:"Korekce",verified:"Ov\u011b\u0159en\u00ed",OtherCategory:"Jin\u00e9",
+backButton:"Zp\u011bt",_localized:{}}});

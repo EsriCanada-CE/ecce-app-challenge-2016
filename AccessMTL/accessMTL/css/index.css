@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'dinreg';
+    src: url('../../fonts/dinreg/dinreg.eot');
+    src: url('../../fonts/dinreg/dinreg.eot') format('embedded-opentype'),
+         url('../../fonts/dinreg/dinreg.woff2') format('woff2'),
+         url('../../fonts/dinreg/dinreg.woff') format('woff'),
+         url('../../fonts/dinreg/dinreg.ttf') format('truetype'),
+         url('../../fonts/dinreg/dinreg.svg#dinreg') format('svg');
+}
+
+@font-face {
+    font-family: 'dinbold';
+    src: url('../../fonts/dinbold/dinbold.eot');
+    src: url('../../fonts/dinbold/dinbold.eot') format('embedded-opentype'),
+         url('../../fonts/dinbold/dinbold.woff2') format('woff2'),
+         url('../../fonts/dinbold/dinbold.woff') format('woff'),
+         url('../../fonts/dinbold/dinbold.ttf') format('truetype'),
+         url('../../fonts/dinbold/dinbold.svg#dinbold') format('svg');
+}
+
+.headerimg {
+	float: left;	
+	background:#F9FEBC
+}
+
+.headerText {
+	float: left;
+}
+
+.section.about-us {
+	height: 900px;	
+}
+
+#AMmap {
+    padding: 0;
+    margin: 0;
+	width: 100%;
+    height: 100%;
+}
+
+#cont-wrapper {
+	width: 98%;
+	overflow: hidden;
+	padding-left: 25%;
+}
+
+#cont-left{
+	float: left;
+	width: 40%;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+#cont-right {
+	float: left;
+	width: 98%
+	padding-left: 4%;
+	padding-right: 4%;
+	height: 800px
+}
+
+.map-container {
+	height: 1100px !important;
+	background: url(../images/parc_jc.jpg) !important;
+	background-size: 100% auto !important;
+}
+
+.map-container h3 {
+	padding-bottom: 5px !important;
+}
+
+.map-container div.container {
+	background: white;
+	width: 99%;
+	height: 83%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.navbar-brand {
+	padding: 1px;
+}
+
+.banner img {
+	width: 100%;	
+}
+
+#map-cont {
+	padding:2px;
+	padding-top:100px;
+}
+
+.ch-grid {
+	width: 600px;
+}
+
+.ch-img-1 { 
+	background-image: url(../images/univaccess.jpg);
+}
+.ch-img-2 { 
+	background-image: url(../images/family.jpg);
+}
+.ch-img-3 { 
+	background-image: url(../images/include.jpg);
+}
+.ch-img-4 { 
+	background-image: url(../images/other.jpg);
+}
+
+section.contribute {
+	background: url(../images/uqam_stairs.jpg) !important;
+}
+
+.headImg {
+	width: 100%;	
+}
+
+.banner h2 {
+	font-family: dinbold !important;	
+	text-align: center !important;
+	color: aliceblue;
+	padding-top: 110px;
+}
+
+.banner p {
+   text-align: center !important;
+   font-size: 18px !important;
+   font-family: dinreg !important;
+   padding-left: 20%;
+   padding-right: 20%;
+   color: white;
+}
+
+#homepage_banner {
+	width: 100%; 
+	padding-left: 20%;
+	padding-right: 20%;	
+}
+
+.upperP {
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+.lowerP {
+	padding-bottom: 520px
+}
+
+.map-container p {
+   text-align: center !important;
+   font-size: 18px !important;
+   font-family: dinreg !important;
+   padding-left: 20%;
+   padding-right: 20%;
+   color: white;
+   padding-bottom: 10px;
+}
+
+.banner h3 {
+	font-family: dinbold !important;	
+	text-align: center !important;
+	color: aliceblue;
+	padding-top: 110px;
+}
+
+#text_right{
+	float: left;
+}
+
+#img_left {
+	float: left;
+}
+
+
+
+#white p {
+   text-align: center !important;
+   font-size: 18px !important;
+   font-family: dinreg !important;
+   padding-left: 20%;
+   padding-right: 20%;
+   color: white;
+   padding-bottom: 10px;
+}

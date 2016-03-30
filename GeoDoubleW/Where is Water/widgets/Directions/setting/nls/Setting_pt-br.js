@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Directions/setting/nls/strings":{routeUrl:"URL da Rota",locatorUrl:"URL do Geocodificador",geocoderOptions:"Op\u00e7\u00f5es do geocodificador",autoComplete:"Auto Completar",maxLocations:"M\u00e1ximo de locais",minCharacters:"M\u00ednimo de caracteres",searchDelay:"Atraso de pesquisa",placeholder:"Espa\u00e7o Reservado",routeOptions:"Op\u00e7\u00f5es da rota",directionsLanguage:"Idioma das dire\u00e7\u00f5es",directionsLengthUnits:"Unidades de comprimento das dire\u00e7\u00f5es",
+directionsOutputType:"Tipo de sa\u00edda das dire\u00e7\u00f5es",impedanceAttribute:"Atributo de imped\u00e2ncia",kilometers:"Quil\u00f4metros",miles:"Milhas",meters:"Metros",feet:"P\u00e9s",yards:"Jardas",nauticalMiles:"Milhas N\u00e1uticas",parametersTip:"Configure par\u00e2metros corretamente !",complete:"Completo",completeNoEvents:"Completar Sem Eventos",instructionsOnly:"Instru\u00e7\u00f5es Somente",standard:"Padr\u00e3o",summaryOnly:"Resumo Somente",travelModesUrl:"URL de Modos de Viagem",
+searchPlaceholder:"Encontrar endere\u00e7o ou lugar",trafficLayerUrl:"URL da Camada de Tr\u00e1fego",_localized:{}}});

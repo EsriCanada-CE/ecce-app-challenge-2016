@@ -1,0 +1,164 @@
+{
+  "layerInfos": [
+    {
+      "name": "Summarize cma_by_ct_bc_victoria within ParksSHP",
+      "id": "Summarize cma_by_ct_bc_victoria within ParksSHP_6773",
+      "layer": {
+        "url": "http://services.arcgis.com/cbgz74f8wClHm9jR/arcgis/rest/services/Summarize cma_by_ct_bc_victoria within ParksSHP/FeatureServer/0",
+        "fields": [
+          {
+            "show": true,
+            "name": "OBJECTID_1",
+            "alias": ""
+          },
+          {
+            "show": false,
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": true,
+            "name": "Park_Name",
+            "alias": "Park Name"
+          },
+          {
+            "show": false,
+            "name": "Alias_Name",
+            "alias": "Alias Name"
+          },
+          {
+            "show": false,
+            "name": "Class",
+            "alias": "Class"
+          },
+          {
+            "show": false,
+            "name": "Jurisdicti",
+            "alias": "Jurisdicti"
+          },
+          {
+            "show": false,
+            "name": "Horticultu",
+            "alias": "Horticultu"
+          },
+          {
+            "show": false,
+            "name": "Playground",
+            "alias": "Playground"
+          },
+          {
+            "show": false,
+            "name": "Concession",
+            "alias": "Concession"
+          },
+          {
+            "show": false,
+            "name": "Picnic",
+            "alias": "Picnic"
+          },
+          {
+            "show": false,
+            "name": "Washrooms",
+            "alias": "Washrooms"
+          },
+          {
+            "show": false,
+            "name": "BallDiamon",
+            "alias": "BallDiamon"
+          },
+          {
+            "show": false,
+            "name": "SportField",
+            "alias": "SportField"
+          },
+          {
+            "show": false,
+            "name": "TennisCour",
+            "alias": "TennisCour"
+          },
+          {
+            "show": false,
+            "name": "OffLeash",
+            "alias": "OffLeash"
+          },
+          {
+            "show": false,
+            "name": "Trails",
+            "alias": "Trails"
+          },
+          {
+            "show": false,
+            "name": "WaterViews",
+            "alias": "WaterViews"
+          },
+          {
+            "show": false,
+            "name": "LawnBowlin",
+            "alias": "LawnBowlin"
+          },
+          {
+            "show": true,
+            "name": "SUM_Area_SquareKilometers",
+            "alias": "Summarized area in Square Kilometers"
+          },
+          {
+            "show": false,
+            "name": "Join_ID",
+            "alias": "JOIN ID"
+          },
+          {
+            "show": true,
+            "name": "AnalysisArea",
+            "alias": "Area in Square Kilometers"
+          }
+        ]
+      },
+      "show": true
+    },
+    {
+      "name": "Summarize cma_by_ct_bc_victoria within ParksSHP - GroupBySummary",
+      "id": "Summarize cma_by_ct_bc_victoria within ParksSHP_139",
+      "layer": {
+        "url": "http://services.arcgis.com/cbgz74f8wClHm9jR/arcgis/rest/services/Summarize cma_by_ct_bc_victoria within ParksSHP/FeatureServer/1",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "",
+            "show": false
+          },
+          {
+            "name": "Join_ID",
+            "alias": "",
+            "show": true
+          },
+          {
+            "name": "CMAUID",
+            "alias": "CMAUID",
+            "show": true
+          },
+          {
+            "name": "SUM_Area_SquareKilometers",
+            "alias": "Summarized area in Square Kilometers",
+            "show": true
+          },
+          {
+            "name": "PercentArea",
+            "alias": "Percent area",
+            "show": true
+          }
+        ]
+      },
+      "show": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": false,
+  "initiallyExpand": false
+}

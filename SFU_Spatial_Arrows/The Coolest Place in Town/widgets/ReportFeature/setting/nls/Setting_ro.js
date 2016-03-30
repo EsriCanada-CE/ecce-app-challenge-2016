@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/ReportFeature/setting/nls/strings":{drsUrl:"URL server Data Reviewer",includeReportedBy:"Tehnician Reviewer",label:"Strat tematic",show:"Includere",alias:"Pseudonim",warning:"Intrare incorect\u0103",defaultSessionId:"Sesiune implicit\u0103",setSource:"Setare",getCurrentUser:"Nume de utilizator autentificat",getDefaultUser:"Introduce\u0163i o valoare implicit\u0103",getUser:"Permite\u0163i introducerea de c\u0103tre utilizatori",userName:"Introducere nume de utilizator",noUserName:"Introduce\u0163i numele de utilizator implicit.",
+noLayers:"Niciun strat tematic opera\u0163ional pe harta web.",noSessionName:"Selecta\u0163i o sesiune",revTechName:"Nume tehnician Reviewer",_localized:{}}});

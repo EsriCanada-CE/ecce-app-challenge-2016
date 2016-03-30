@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Draw/setting/nls/strings":{addDistance:"Prid\u0117ti ilgio vienet\u0105",addArea:"Prid\u0117ti ploto vienet\u0105",label:"\u017dym\u0117",abbr:"Trumpinys",conversion:"Konvertavimas",actions:"Veiksmai",areaUnits:"Ploto vienetai",distanceUnits:"Ilgio vienetai",kilometers:"Kilometrai",miles:"Mylios",meters:"Metrai",feet:"P\u0117dos",yards:"Jardai",squareKilometers:"Kvadratiniai kilometrai",squareMiles:"Kvadratin\u0117s mylios",acres:"Akrai",hectares:"Hektarai",squareMeters:"Kvadratiniai metrai",
+squareFeet:"Kvadratin\u0117 p\u0117da",squareYards:"Kvadratiniai jardai",distance:"Atstumai",area:"Plotai",kilometersAbbreviation:"km",milesAbbreviation:"myl.",metersAbbreviation:"m",feetAbbreviation:"p\u0117d.",yardsAbbreviation:"jard.",squareKilometersAbbreviation:"kv. km.",squareMilesAbbreviation:"kv. mi.",acresAbbreviation:"akr.",hectaresAbbreviation:"ha",squareMetersAbbreviation:"kv. m.",squareFeetAbbreviation:"kv. p\u0117d.",squareYardsAbbreviation:"kv. jard.",defineUnits:"Nurodykite matavimo vienetus.",
+operationalLayer:"Prid\u0117kite pie\u0161in\u012f kaip \u017eem\u0117lapio darbin\u012f sluoksn\u012f.",_localized:{}}});

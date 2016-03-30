@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/AttributeTable/setting/nls/strings":{instruction:"Select and configure layers that will be shown in Attribute Table initially.",label:"Layer",show:"Show",actions:"Configure Layer Fields",field:"Field",alias:"Alias",visible:"Visible",linkField:"Link Field",noLayers:"No feature layers are available",back:"Back",exportCSV:"Allow exporting to CSV",expand:"Initially expand the widget",filterByExtent:"Enable Filter by Map Extent by default",restore:"Restore to default value",ok:"OK",cancel:"Cancel",
+configureLayerFields:"Configure Layer Fields",result:"Saved successfully",warning:"Please select the Show option first.",fieldCheckWarning:"At least one field must be selected.",unsupportQueryWarning:"The layer needs to support query operation to display in Attribute Table widget. Make sure the query capability in the service is turned on.",unsupportQueryLayers:"The following layer needs to support query operation to display in Attribute Table widget. Make sure the query capability in the service is turned on.",
+fieldName:"Name",fieldAlias:"Alias",fieldVisibility:"Visibility",fieldActions:"Actions",_localized:{}}});

@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Splash/nls/strings":{_widgetLabel:"Splash",welcomeMessage:"Benvenuti all'applicazione Web ArcGIS",licenceAgree:"Accetto le",licenceTerm:"Condizioni per l'applicazione Web ArcGIS",labelContinue:"Continua",errorString:"* \u00c8 necessario accettare la licenza per continuare.",notShowAgain:"Non visualizzare pi\u00f9 la schermata d'avvio.",ok:"OK",cancel:"Annulla",_localized:{}}});

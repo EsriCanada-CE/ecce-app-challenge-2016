@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define(["dojo/_base/declare","jimu/BaseWidgetPanel","jimu/BaseWidgetFrame","./BoxFrame"],function(a,b,c,d){return a([b],{baseClass:"jimu-widget-panel box-panel",startup:function(){this.inherited(arguments);this.started=!0},createFrame:function(a){return this.config.widgets&&1===this.config.widgets.length||!this.config.widgets?new c:new d({label:a.label,widgetManager:this.widgetManager})}})});

@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/OverviewMap/setting/nls/strings":{visible:"Mostra mappa panoramica per impostazione predefinita",minWidth:"Larghezza min",minHeight:"Altezza min",maxWidth:"Larghezza max",maxHeight:"Altezza max",minText:"Minimo",maxText:"massimo",attachText:"Specificare l'angolo della mappa a cui associare il widget.",expandText:"Espandere innanzitutto il widget",topLeft:"Superiore sinistro",topRight:"Superiore destro",bottomLeft:"Inferiore sinistro",bottomRight:"Inferiore destro",_localized:{}}});

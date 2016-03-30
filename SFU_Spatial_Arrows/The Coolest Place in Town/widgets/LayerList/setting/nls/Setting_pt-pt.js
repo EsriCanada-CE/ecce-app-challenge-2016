@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/LayerList/setting/nls/strings":{showLegend:"Exibir legenda",controlPopupMenuTitle:"Escolher que ac\u00e7\u00f5es s\u00e3o mostradas na camada menu de contexto.",zoomto:"Efetuar Zoom Para",transparency:"Transpar\u00eancia",controlPopup:"Activar / Desactivar Pop-up",moveUpAndDown:"Mover para cima / Mover para baixo",attributeTable:"Abrir tabela de atributos",url:"Descri\u00e7\u00e3o / Mostrar Detalhes de Item / Descarregar",_localized:{}}});

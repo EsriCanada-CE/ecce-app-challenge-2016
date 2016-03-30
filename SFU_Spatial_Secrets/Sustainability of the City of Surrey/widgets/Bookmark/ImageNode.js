@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define("dojo/_base/declare dojo/_base/lang dojo/_base/html dijit/_WidgetBase dijit/_TemplatedMixin dojo/on dojo/query jimu/utils dojo/mouse".split(" "),function(c,d,b,e,f,g,a,h){return c([e,f],{templateString:'\x3cdiv class\x3d"jimu-img-node"\x3e\x3c/div\x3e',constructor:function(a,b){},postCreate:function(){this.box=b.create("div",{"class":"node-box"},this.domNode);b.create("img",{src:this.img},this.box);b.create("div",{"class":"node-label",innerHTML:h.sanitizeHTML(this.label),title:this.label},
+this.domNode);this.own(g(this.domNode,"click",d.hitch(this,this.onClick)))},onClick:function(){a(".jimu-img-node",this.getParent().domNode).removeClass("jimu-state-selected");a(this.domNode).addClass("jimu-state-selected")},highLight:function(){a(".jimu-img-node",this.getParent().domNode).removeClass("jimu-state-selected");a(this.domNode).addClass("jimu-state-selected")},startup:function(){}})});

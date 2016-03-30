@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/NearMe/nls/strings":{_widgetLabel:"Nelle vicinanze",searchHeaderText:"Cercare un indirizzo o individuarlo sulla mappa",invalidSearchLayerMsg:"Layer di ricerca non configurati correttamente",bufferSliderText:"Mostra risultati all'interno di ${BufferDistance} ${BufferUnit}",bufferSliderValueString:"Specificare una distanza maggiore di 0",unableToCreateBuffer:"Impossibile trovare risultato(i)",selectLocationToolTip:"Fare clic per aggiungere un punto",noFeatureFoundText:"Nessun risultato trovato ",
+attachmentHeader:"Allegati",unableToFetchResults:"Impossibile recuperare risultati da layer:",informationTabTitle:"Informazioni",directionTabTitle:"Direzione",failedToGenerateRouteMsg:"Impossibile generare il percorso.",geometryServicesNotFound:"Servizio geometria non disponibile.",allPopupsDisabledMsg:"I popup non sono configurati e i risultati non possono essere visualizzati.",_localized:{}}});

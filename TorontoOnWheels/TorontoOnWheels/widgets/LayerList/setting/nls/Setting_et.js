@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/LayerList/setting/nls/strings":{showLegend:"N\u00e4ita legendi",controlPopupMenuTitle:"Valige, milliseid toiminguid kuvatakse kihi rippmen\u00fc\u00fcs",zoomto:"Suumi",transparency:"L\u00e4bipaistvus",controlPopup:"Luba / Keela h\u00fcpikaknad",moveUpAndDown:"Liigu \u00fcles / Liigu alla",attributeTable:"Ava atribuuditabel",url:"Kirjeldus / Kuva sisu\u00fcksuse detailid / Allalaadimine",_localized:{}}});

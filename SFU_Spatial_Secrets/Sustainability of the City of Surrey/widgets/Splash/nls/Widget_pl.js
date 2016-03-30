@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Splash/nls/strings":{_widgetLabel:"Ekran powitalny",welcomeMessage:"Witamy w ArcGIS Web Application!",licenceAgree:"Akceptuj\u0119",licenceTerm:"Warunki u\u017cytkowania ArcGIS Web Application",labelContinue:"Kontynuuj",errorString:"* Aby kontynuowa\u0107, nale\u017cy zaakceptowa\u0107 warunki umowy licencyjnej.",notShowAgain:"Nie wy\u015bwietlaj wi\u0119cej ekranu powitalnego.",ok:"OK",cancel:"Anuluj",_localized:{}}});

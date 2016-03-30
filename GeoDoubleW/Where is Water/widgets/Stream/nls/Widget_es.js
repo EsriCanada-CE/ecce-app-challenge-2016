@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Stream/nls/strings":{_widgetLabel:"Flujo",noStreamLayer:"No hay opciones de capa de transmisi\u00f3n preconfiguradas disponibles.",streamControls:"Controles de transmisi\u00f3n",startStreaming:"Comenzar transmisi\u00f3n streaming",stopStreaming:"Detener transmisi\u00f3n streaming",clearObservation:"Borrar observaciones anteriores",streamFilter:"Filtro",showAllObservations:"Mostrar todas las observaciones",showMapAreaObservations:"Limitar observaciones a \u00e1rea de mapa actual",
+showObservationsByDrawing:"Limitar las observaciones dibujando en el mapa",useSpatialFilter:"Usar filtro espacial para limitar las observaciones",useAttributeFilter:"Usar filtro de atributos para limitar las observaciones",selectStreamLayer:"Seleccionar una capa de transmisi\u00f3n",previousObservations:"Dibujar observaciones anteriores",applyAttrFilter:"Aplicar",_localized:{}}});

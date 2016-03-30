@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Stream/nls/strings":{_widgetLabel:"Transmisie",noStreamLayer:"Nu este disponibil\u0103 nicio op\u0163iune preconfigurat\u0103 pentru straturile tematice \u00een transmisie.",streamControls:"Transmitere comenzi",startStreaming:"\u00cencepere transmisie",stopStreaming:"Oprire transmitere",clearObservation:"Golire observa\u0163ii anterioare",streamFilter:"Filtru",showAllObservations:"Afi\u015fare toate observa\u0163iile",showMapAreaObservations:"Limitare observa\u0163ii la suprafa\u0163a actual\u0103 a h\u0103r\u0163ii",
+showObservationsByDrawing:"Limitare observa\u0163ii prin trasarea pe hart\u0103",useSpatialFilter:"Utilizare filtru spa\u0163ial pentru limitarea observa\u0163iilor",useAttributeFilter:"Utilizare filtru atribute pentru limitarea observa\u0163iilor",selectStreamLayer:"Selectare strat tematic de flux",previousObservations:"Trasare observa\u0163ii anterioare",applyAttrFilter:"Aplicare",_localized:{}}});

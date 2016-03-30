@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"themes/JewelryBoxTheme/nls/strings":{_themeLabel:'\u0422\u0435\u043c\u0430 "\u0448\u043a\u0430\u0442\u0443\u043b\u043a\u0430"',_layout_default:"\u041a\u043e\u043c\u043f\u043e\u043d\u043e\u0432\u043a\u0430 \u043f\u043e \u0443\u043c\u043e\u043b\u0447\u0430\u043d\u0438\u044e",_layout_layout1:"\u041a\u043e\u043c\u043f\u043e\u043d\u043e\u0432\u043a\u0430 1",emptyDocablePanelTip:"\u0429\u0435\u043b\u043a\u043d\u0438\u0442\u0435 \u043a\u043d\u043e\u043f\u043a\u0443 + \u043d\u0430 \u0437\u0430\u043a\u043b\u0430\u0434\u043a\u0435 \u0412\u0438\u0434\u0436\u0435\u0442, \u0447\u0442\u043e\u0431\u044b \u0434\u043e\u0431\u0430\u0432\u0438\u0442\u044c \u0432\u0438\u0434\u0436\u0435\u0442. ",
+_localized:{}}});

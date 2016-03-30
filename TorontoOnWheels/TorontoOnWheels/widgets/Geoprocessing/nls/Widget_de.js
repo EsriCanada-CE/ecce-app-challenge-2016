@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Geoprocessing/nls/strings":{_widgetLabel:"Geoverarbeitung",execute:"Ausf\u00fchren",help:"Hilfe",input:"Eingabe",output:"Ausgabe",executing:"Wird ausgef\u00fchrt",requiredInfo:"ist erforderlich.",drawnOnMap:"Das Ergebnis wird auf der Karte dargestellt.",clear:"L\u00f6schen",error:"Fehler",noToolConfig:"Kein vorkonfigurierter Geoverarbeitungs-Task verf\u00fcgbar.",useUrlForGPInput:"URL",useUploadForGPInput:"Datei hochladen",selectFileToUpload:"Datei ausw\u00e4hlen...",upload:"Hochladen",
+rasterFormat:"Raster-Datenformat",noFileSelected:"Keine Datei ausgew\u00e4hlt!",uploadSuccess:"Datei wurde erfolgreich hochgeladen!",url:"URL",showLayerContent:"Layer-Inhalt anzeigen",invalidUrl:"Ung\u00fcltige Feature-Service-URL",Feet:"Fu\u00df",Yards:"Yard",Miles:"Meilen",NauticalMiles:"Seemeilen",Meter:"Meter",Kilometers:"Kilometer",urlPlaceholder:"Feature-Set-URL",addShapefile:"Shapefile hinzuf\u00fcgen",generateShapefileError:"Fehler beim Erstellen der Shapefile; \u00fcberpr\u00fcfen Sie Folgendes: ",
+cleared:"Das Ergebnis wurde gel\u00f6scht.",enlargeView:"Ansicht vergr\u00f6\u00dfern",exportOutput:"Exportieren",_localized:{}}});

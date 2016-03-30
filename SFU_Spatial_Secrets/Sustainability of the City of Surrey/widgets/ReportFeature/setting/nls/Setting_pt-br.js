@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/ReportFeature/setting/nls/strings":{drsUrl:"URL de Servidor do Revisor de Dados",includeReportedBy:"T\u00e9cnico Revisor",label:"Camada",show:"Incluir",alias:"Nome Alternativo",warning:"Entrada incorreta",defaultSessionId:"Sess\u00e3o Padr\u00e3o",setSource:"Configurar",getCurrentUser:"Registrado no Nome de Usu\u00e1rio",getDefaultUser:"Insira um valor padr\u00e3o",getUser:"Permitir entrada de usu\u00e1rio",userName:"Inserir Nome de Usu\u00e1rio",noUserName:"Insira nome de usu\u00e1rio padr\u00e3o.",
+noLayers:"Nenhuma camada operacional no mapa da web.",noSessionName:"Selecione uma Sess\u00e3o",revTechName:"Nome do T\u00e9cnico Revisor",_localized:{}}});

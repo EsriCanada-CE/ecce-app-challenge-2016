@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/ReviewerDashboard/setting/nls/strings":{drsSOEURL:"URL des Data Reviewer-Servers",chartSection:"Anzahl der Ausschnitte/Balken im Diagramm",selectByGeography:"Filter nach Geographie einbeziehen",selectUrl:"Service-Layer f\u00fcr Filter nach Geographie",selectMapUrl:"Service f\u00fcr Filter nach Geographie",geometryServiceURL:"URL des Geometrie-Service",includeFieldNames:"Felder ausw\u00e4hlen",fieldNames:"Feldnamen",lifecyclePhaseFieldName:"LEBENSZYKLUSPHASE",setSource:"Festlegen",
+defaultFieldName:"Gewichtung",warning:"Falsche Eingabe",includeDefaultFieldName:"Standardfeldname muss ausgew\u00e4hlt sein",selectFieldWarning:"Mindestens ein Feld muss sichtbar sein",defaultFieldNotVisible:"Standardfeld muss sichtbar sein",batchJobCheckGroup:"batchjobcheckgroup",defaultColumn:"Standard",visibleColumn:"Sichtbar",fieldNameColumn:"Name des Dashboard-Feldes",aliasColumn:"Alias",_localized:{}}});

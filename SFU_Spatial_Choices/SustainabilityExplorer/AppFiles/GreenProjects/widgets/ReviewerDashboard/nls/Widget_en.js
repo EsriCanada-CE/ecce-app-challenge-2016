@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/ReviewerDashboard/nls/strings":{_widgetLabel:"Reviewer Dashboard",spatialFilterSelection:"Filter results by geography",drawSelectionArea:"Draw a result selection area on the map",currentSelection:"Show results only in current map extent",censusBlockGroup:"Show results by geography",noSpatialFilter:" Use no spatial filter",reviewerSessionFilter:"Filter results by Reviewer Session",selectAttributeFilters:"Select information to display",phaseFieldName:"lifecyclephase",statusFieldName:"lifecyclestatus",
+allSessions:"All Sessions",dashboardTab:"Dashboard",filtersTab:"Settings",noResults:"No Results Found",resultsBy:"Results by: ",reviewed:"Review",corrected:"Correction",verified:"Verification",OtherCategory:"Other",backButton:"Back",_localized:{}}});

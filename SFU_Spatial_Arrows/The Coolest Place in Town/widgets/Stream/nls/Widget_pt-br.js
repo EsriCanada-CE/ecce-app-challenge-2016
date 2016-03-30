@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Stream/nls/strings":{_widgetLabel:"Carregar",noStreamLayer:"Nenhuma op\u00e7\u00e3o da camada de stream pr\u00e9-configurada dispon\u00edvel.",streamControls:"Controles de Reprodu\u00e7\u00e3o",startStreaming:"Iniciar Carregamento",stopStreaming:"Parar de Carregar",clearObservation:"Apagar observa\u00e7\u00f5es anteriores",streamFilter:"Filtro",showAllObservations:"Mostrar todas as observa\u00e7\u00f5es",showMapAreaObservations:"Limitar observa\u00e7\u00f5es na \u00e1rea do mapa atual",
+showObservationsByDrawing:"Limitar observa\u00e7\u00f5es por desenho no mapa",useSpatialFilter:"Utilizar filtro espacial para limitar observa\u00e7\u00f5es",useAttributeFilter:"Utilizar filtro de atributo para limitar observa\u00e7\u00f5es",selectStreamLayer:"Selecione uma Camada de Reprodu\u00e7\u00e3o",previousObservations:"Desenhar observa\u00e7\u00f5es anteriores",applyAttrFilter:"Aplicar",_localized:{}}});

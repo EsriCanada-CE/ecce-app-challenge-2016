@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+
+
+<!--
+2016 Ian Tattersfield for McGill University
+Code written by Ian Tattersfield is subject to copyright protection
+
+Copyright [2015] [Ian Tattersfield]
+
+This file is part of AccessMTL.
+
+    AccessMTL is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    AccessMTL is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with AccessMTL.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  	<title>AccessMTL Contribute</title>
+    <link rel="icon" type="image/png" href="images/favico.png" />
+    
+    <meta id="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+    <title>Add to UAS_dB</title>
+    
+    <!--Scripts and Css  -->
+    <link rel="stylesheet" href="https://js.arcgis.com/3.15/dijit/themes/tundra/tundra.css">
+    <link rel="stylesheet" href="https://js.arcgis.com/3.15/esri/css/esri.css">
+    <script src="http://code.jquery.com/jquery-1.5.js"></script>
+    <!--/Scripts and Css  -->
+    
+    <style>
+      html, body { height: 100%; width: 100%; margin: 0; padding: 0; }
+      #map { height: 730px !important; margin: 0; padding: 0; width:730px !important}
+      #legend {
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+        width: 180px;
+        height: 170px;
+        z-index: 40;
+        background: #fff;
+        color: #777;
+        padding: 5px;
+        border: 2px solid #666;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px; 
+        font-family: arial;
+        font-size: 0.9em;
+      }
+	  
+	  @font-face {
+		font-family: 'dinreg';
+		src: url('../../fonts/dinreg/dinreg.eot');
+		src: url('../../fonts/dinreg/dinreg.eot') format('embedded-opentype'),
+			 url('../../fonts/dinreg/dinreg.woff2') format('woff2'),
+			 url('../../fonts/dinreg/dinreg.woff') format('woff'),
+			 url('../../fonts/dinreg/dinreg.ttf') format('truetype'),
+			 url('../../fonts/dinreg/dinreg.svg#dinreg') format('svg');
+	}
+
+      #legend h3 {
+        color: #666;
+        font-size: 1.1em;
+        padding: 0px;
+        margin: 0px;
+        display: inline-block;
+      }
+      #loading { 
+        float: right;
+      }
+	#container{
+		font-family: dinreg;
+		color: lightgray;
+	}
+	#left-bar{
+		float: left;
+		width: 600px;
+		padding: 5px;
+		background-color: lightslategray;
+		height: 730px;
+	}
+	#right-bar{
+		float:left;
+		width:610px;
+	}
+	
+	#lat{
+		float: left;
+		color: lightslategray;
+
+	}
+	#lng{
+		float: left;
+		color: lightslategray;
+
+	}
+	
+
+    </style>
+    
+	<!-- Load Arc API library  -->
+	<script src="https://js.arcgis.com/3.15/"></script>
+	<!-- /Load Arc API library  -->
+
+	<!-- url query and kml locate  -->
+	<script>
+     var str = window.location.href;
+     var urlKml = str.replace("accessMtl.html", "mainMapKmlLevel.php?level=all");
+    </script>
+    <!-- /url query and kml locate  -->
+ 
+<!-- Map functionality -->   
+<script>
+  var map;
+
+  require([
+        "esri/map", 
+        "esri/geometry/webMercatorUtils", 
+        "esri/toolbars/draw",
+        "esri/symbols/SimpleMarkerSymbol", 
+        "esri/symbols/SimpleLineSymbol",
+        "esri/symbols/PictureFillSymbol", 
+        "esri/symbols/CartographicLineSymbol", 
+        "esri/graphic", 
+        "esri/Color", 
+        "dojo/dom", 
+        "dojo/on", 
+        "dojo/domReady!"
+      ], function(
+        Map, 
+        webMercatorUtils, 
+        Draw,
+        SimpleMarkerSymbol, 
+        SimpleLineSymbol,
+        PictureFillSymbol, 
+        CartographicLineSymbol, 
+        Graphic, 
+        Color, dom, on
+      )        
+      {
+            
+      map = new Map("map", {  
+      basemap: "dark-gray",
+      center: [-73.6837137541535,45.54319611681475],
+      zoom: 12
+        });
+        map.on("load", function() {
+          map.on("mouse-down", showCoordinates);
+          map.on("mouse-down", addPoint);
+        });
+        
+		//define markerSymbol custom SVG path and color
+        var markerSymbol = new SimpleMarkerSymbol();
+        markerSymbol.setPath("M6 16 L32 56 L56 16 Z");
+        markerSymbol.setColor(new Color("#cc0066"));
+
+       //clear any previous markers and add a new marker to the map 
+        function addPoint(evt) {
+          map.graphics.clear();
+          map.enableMapNavigation();
+          var symbol;
+          symbol = markerSymbol;
+          map.graphics.add(new Graphic(evt.mapPoint, symbol));
+        }
+
+		//append coordinates to the form
+        function showCoordinates(evt) {
+          var mp = webMercatorUtils.webMercatorToGeographic(evt.mapPoint);
+          dom.byId("lat").innerHTML = mp.x.toFixed(6);
+          dom.byId("lng").innerHTML = mp.y.toFixed(6);
+        }
+      });
+    </script>
+  </head>
+  
+  
+  <body>
+  <div id="container">
+  <div id="left-bar">
+  <div id="coordbox"><div id="lat"></div><div id="lng"></div></div>
+  <div id="contribute-form">
+
+  <img src="../images/accessMTLbanner400x50.png" width="250">
+  <br>
+  <p>Thank you for taking some time to fill out a the following description values for the location you have specified on the map. The latitude and longitude fields will be updated when you click to drop a marker on the location.</p>
+  <p>[ACC = Accessibility Fields]  [WR = Washroom Facility Fields]  [INC = Inclusivity Fields]</p>
+  <table>
+    <tr>
+    	<td><input type="text" id="name" placeholder="Input Location Name" required="required"></td>
+	    <td><input type="text" id="address" placeholder="Input street address" required="required"></td>
+        <td><input type="text" id="telephone" placeholder="telephone"></td>
+    </tr>
+	<tr>
+    	<td><input type="text" id="postal_code" placeholder="postal code"></td>
+	    <td><input type="text" id="city" placeholder="city" required></td>
+        <td><input type="text" id="website" placeholder="website" required></td>
+    </tr>
+   	<tr>
+    	<td><input type="text" id="desc" placeholder="Describe the location"></td>
+    </tr>
+   	<tr>
+    	<td><input type="text" id="formLat" value="Latitude(click map)"></td>
+	    <td><input type="text" id="formLng" value="Longitude(click map)"></td>
+    </tr>
+    <tr>
+    	<td>ACC: Automatic Doors<br>
+        <input type="radio" id="ACC_autodoor" value="1" required="required"> Yes<br>
+ 		<input type="radio" id="ACC_autodoor" value="0" required="required"> No</td>
+        <td>ACC: Entrance Ramp<br>
+        <input type="radio" id="ACC_entrRamp" value="1" required="required"> Yes<br>
+ 		<input type="radio" id="ACC_entrRamp" value="0" required="required"> No</td>
+        <td>ACC: Street Access<br>
+        <input type="radio" id="ACC_streetlevel" value="1" required="required"> Yes<br>
+ 		<input type="radio" id="ACC_streetlevel" value="0" required="required"> No</td>
+    </tr>
+    <tr>
+    	<td>ACC: Stairs<br>
+        <input type="radio" id="ACC_stairs" value="1"> Yes<br>
+ 		<input type="radio" id="ACC_stairs" value="0"> No</td>
+        <td>ACC: Elevator<br>
+        <input type="radio" id="ACC_elevator" value="1"> Yes<br>
+ 		<input type="radio" id="ACC_elevator" value="0"> No</td>
+    </tr>
+    <tr bgcolor="#424242" >
+    	<td>WR: Street Level<br>
+        <input type="radio" id="WR_streetlevel" value="1"> Yes<br>
+ 		<input type="radio" id="WR_streetlevel" value="0"> No</td>
+        <td>WR: Rails<br>
+        <input type="radio" id="WR_rails" value="1"> Yes<br>
+ 		<input type="radio" id="WR_rails" value="0"> No</td>
+       	<td>WR: Gender Neutral<br>
+        <input type="radio" id="WR_gender_neutral" value="1"> Yes<br>
+ 		<input type="radio" id="WR_gender_neutral" value="0"> No</td>
+    </tr>
+    <tr bgcolor="#424242">
+    	<td>WR: Size<br>
+        <input type="radio" id="WR_size" value="1"> Yes<br>
+ 		<input type="radio" id="WR_size" value="0"> No</td>
+        <td>WR: Baby Table<br>
+        <input type="radio" id="WR_change_table" value="1" > Yes<br>
+ 		<input type="radio" id="WR_change_table" value="0"> No</td>
+        <td>WR: Family<br>
+        <input type="radio" id="WR_family" value="1"> Yes<br>
+ 		<input type="radio" id="WR_family" value="0"> No</td>
+    </tr>
+    <tr>
+    	<td>INC: EN/FR/BOTH<br>
+        <input type="radio" id="INC_lang" value="1"> Bilingual<br>
+        <input type="radio" id="INC_lang" value="0"> French Only<br>
+ 		<input type="radio" id="INC_lang" value="0"> English Only</td>
+        <td>INC: Helpfull Staff<br>
+        <input type="radio" id="INC_staff" value="1"> Yes<br>
+ 		<input type="radio" id="INC_staff" value="0"> No</td>
+       	<td>INC: Braille<br>
+        <input type="radio" id="INC_braille" value="1"> Yes<br>
+ 		<input type="radio" id="INC_braille" value="0"> No</td>
+    </tr>
+    <tr>
+    	<td>INC: Family Friendly<br>
+        <input type="radio" id="INC_family" value="1"> Yes<br>
+ 		<input type="radio" id="INC_family" value="0"> No</td>
+        <td>Comments<br>
+        <input type="text" id="OVER_comments" placeholder="Comments on Accessibility" required></td>
+    </tr>
+    <tr><td><input class"button" type="submit" formonvalidate name="submit" id="submit" value="Submit Entry" onclick="checkForm();"></td></tr>
+  </table>
+
+</div>
+  </div>
+  <div id="right-bar">
+    <div id="map" style="position:relative; width:900px; height:600px; border:1px solid #000;">
+    </div>
+  </div>
+  </body>
+  
+  
+  <script type="text/javascript">
+  	
+  $('#lat').bind('DOMSubtreeModified', function(event){
+	  $('input[id=formLat]').val(document.getElementById('lat').innerText);
+  });
+  
+  $('#lng').bind('DOMSubtreeModified', function(event){
+	  $('input[id=formLng]').val(document.getElementById('lng').innerText);
+  });
+  
+  function checkForm()
+  {
+	var checkField = document.getElementById("formLat").value;
+	  
+	if (isNaN(checkField))
+		  {
+		  alert("you have missing fields, please retry.");
+			return;
+	  }
+	  
+	  else if (!(isNaN(checkField))){
+		saveData();  
+	  }
+  }
+
+     
+  function saveData() {
+      
+      var thisURL = window.location.href;
+      var csvURL = thisURL.substr(0, urlKml.indexOf('/layers/'));
+      csvURL += '/layers/appendCSV.php';
+      
+      var name = escape(document.getElementById("name").value);
+      var address = escape(document.getElementById("address").value);
+      var postal_code = escape(document.getElementById("postal_code").value);
+      var city = escape(document.getElementById("city").value);
+      var telephone = escape(document.getElementById("telephone").value);
+      var website = escape(document.getElementById("website").value);
+      var desc = escape(document.getElementById("desc").value);
+      var formLat = escape(document.getElementById("formLat").value);
+      var formLng = escape(document.getElementById("formLng").value);
+      var ACC_autodoor = escape(document.getElementById("ACC_autodoor").value);
+      var ACC_entrRamp = escape(document.getElementById("ACC_entrRamp").value);
+      var ACC_streetlevel = escape(document.getElementById("ACC_streetlevel").value);
+      var ACC_stairs = escape(document.getElementById("ACC_stairs").value);
+      var ACC_elevator = escape(document.getElementById("ACC_elevator").value);
+      var WR_streetlevel = escape(document.getElementById("WR_streetlevel").value);
+      var WR_rails = escape(document.getElementById("WR_rails").value);
+      var WR_gender_neutral = escape(document.getElementById("WR_gender_neutral").value);
+      var WR_size = escape(document.getElementById("WR_size").value);
+      var WR_change_table = escape(document.getElementById("WR_change_table").value);
+      var WR_family = escape(document.getElementById("WR_family").value);
+      var INC_lang = escape(document.getElementById("INC_lang").value);
+      var INC_staff = escape(document.getElementById("INC_staff").value);
+      var INC_braille = escape(document.getElementById("INC_braille").value);
+      var INC_family = escape(document.getElementById("INC_family").value);
+      var OVER_comments = escape(document.getElementById("OVER_comments").value);
+
+      
+      var params = $.param({
+        name: name,
+        address: address,
+        postal_code: postal_code,
+        city: city,
+        telephone: telephone,
+        website: website,
+        desc: desc,
+        formLat: formLat,
+        formLng: formLng,
+        ACC_autodoor: ACC_autodoor,
+        ACC_entrRamp: ACC_entrRamp,
+        ACC_streetlevel: ACC_streetlevel,
+        ACC_stairs: ACC_stairs,
+        ACC_elevator: ACC_elevator,
+        WR_streetlevel: WR_streetlevel,
+        WR_rails: WR_rails,
+        WR_gender_neutral: WR_gender_neutral,
+        WR_size: WR_size,
+        WR_change_table: WR_change_table,
+        WR_family: WR_family,
+        INC_lang: INC_lang,
+        INC_staff: INC_staff,
+        INC_braille: INC_braille,
+        INC_family: INC_family,
+        OVER_comments: OVER_comments
+      });
+  
+  csvURL += '?' + params;
+  console.log('GET', csvURL);
+
+  $.get(csvURL).done(function () {
+      alert("Thank you for your submission.");
+  });
+  
+  }
+
+  </script>
+</html>

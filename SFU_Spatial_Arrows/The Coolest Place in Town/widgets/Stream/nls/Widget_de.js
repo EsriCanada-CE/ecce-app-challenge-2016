@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Stream/nls/strings":{_widgetLabel:"Stream",noStreamLayer:"Keine vorkonfigurierten Stream-Layer-Optionen verf\u00fcgbar.",streamControls:"Streaming-Steuerelemente",startStreaming:"Streaming start.",stopStreaming:"Streaming beenden",clearObservation:"Vorherige Beobachtungen l\u00f6schen",streamFilter:"Filter",showAllObservations:"Alle Beobachtungen anzeigen",showMapAreaObservations:"Beobachtungen auf aktuellen Kartenbereich beschr\u00e4nken",showObservationsByDrawing:"Beobachtungen durch Zeichnen auf der Karte beschr\u00e4nken",
+useSpatialFilter:"R\u00e4umlichen Filter zum Begrenzen von Beobachtungen verwenden",useAttributeFilter:"Attributfilter zum Begrenzen von Beobachtungen verwenden",selectStreamLayer:"Stream-Layer ausw\u00e4hlen",previousObservations:"Vorherige Beobachtungen darstellen",applyAttrFilter:"\u00dcbernehmen",_localized:{}}});

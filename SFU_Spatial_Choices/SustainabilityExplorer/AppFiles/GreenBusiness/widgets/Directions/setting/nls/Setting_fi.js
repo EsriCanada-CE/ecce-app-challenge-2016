@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Directions/setting/nls/strings":{routeUrl:"Reitin URL-osoite",locatorUrl:"Geokooderin URL-osoite",geocoderOptions:"Geokooderin vaihtoehdot",autoComplete:"T\u00e4ydenn\u00e4 automaattisesti",maxLocations:"Sijaintien enimm\u00e4ism\u00e4\u00e4r\u00e4",minCharacters:"Merkkien v\u00e4himm\u00e4ism\u00e4\u00e4r\u00e4",searchDelay:"Haku viiv\u00e4styy",placeholder:"Paikkamerkki",routeOptions:"Reittivaihtoehdot",directionsLanguage:"Ohjeiden kieli",directionsLengthUnits:"Ohjeiden pituusyksik\u00f6t",
+directionsOutputType:"Ohjeiden tulosaineiston tyyppi",impedanceAttribute:"Impedanssin ominaisuus",kilometers:"Kilometri\u00e4",miles:"Mailia",meters:"Metri\u00e4",feet:"Jalkaa",yards:"Jaardia",nauticalMiles:"Meripeninkulmaa",parametersTip:"M\u00e4\u00e4rit\u00e4 parametrit oikein.",complete:"Valmis",completeNoEvents:"\u00c4l\u00e4 suorita loppuun yht\u00e4\u00e4n tapahtumaa",instructionsOnly:"Vain ohjeet",standard:"Vakio",summaryOnly:"Vain yhteenveto",travelModesUrl:"Matkustustapojen URL-osoitteet",
+searchPlaceholder:"Etsi osoite tai paikka",trafficLayerUrl:"Liikenteen karttatason URL-osoite",_localized:{}}});

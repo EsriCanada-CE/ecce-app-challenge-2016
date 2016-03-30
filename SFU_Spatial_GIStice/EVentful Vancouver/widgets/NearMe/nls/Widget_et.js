@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/NearMe/nls/strings":{_widgetLabel:"Minu l\u00e4hedal",searchHeaderText:"Otsi\u00a0aadressi v\u00f5i asukohta kaardil",invalidSearchLayerMsg:"Otsingukihid on valesti konfigureeritud",bufferSliderText:"Kuva tulemused\u00a0${BufferDistance} ${BufferUnit} ulatuses",bufferSliderValueString:"M\u00e4\u00e4rake ulatus, mis on suurem kui 0",unableToCreateBuffer:"Tulemusi ei saanud leida",selectLocationToolTip:"Kl\u00f5psa punkti lisamiseks",noFeatureFoundText:"Tulemusi ei leitud ",attachmentHeader:"Manused",
+unableToFetchResults:"J\u00e4rgmistest kihtidest ei saa tulemusi tuua:",informationTabTitle:"Info",directionTabTitle:"Suund",failedToGenerateRouteMsg:"Marsruudi genereerimine nurjus.",geometryServicesNotFound:"Geomeetriateenus pole saadaval.",allPopupsDisabledMsg:"H\u00fcpikaknad pole konfigureeritud, tulemusi ei saa kuvada.",_localized:{}}});

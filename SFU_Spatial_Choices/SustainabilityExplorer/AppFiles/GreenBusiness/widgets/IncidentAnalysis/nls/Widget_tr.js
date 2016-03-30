@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/IncidentAnalysis/nls/strings":{_widgetLabel:"Olay Analizi",incident:"Olu\u015fum",weather:"Hava Durumu",locate_incident:"Olay Bul",clear_incidents:"Olaylar\u0131 Temizle",reverse_geocoded_address:"En yak\u0131n adres",reverse_geocoded_error:"Kullan\u0131labilir de\u011fil",miles:"Mil",kilometers:"Kilometre",feet:"Fit",meters:"Metre",yards:"Yarda",nauticalMiles:"Deniz Mili",now:"\u015e\u0130MD\u0130",wind:"R\u00dcZGAR",SUN:"PAZ",MON:"PTS",TUE:"SAL",WED:"\u00c7AR",THU:"PER",FRI:"CUM",
+SAT:"CTS",defaultTabMsg:"Tan\u0131mlanan olay yok.",actionLabel:"Olay Olarak Ayarla",useMapExtent:"Ge\u00e7erli harita yay\u0131l\u0131m\u0131n\u0131 kullan",noFeaturesFound:"Detay bulunamad\u0131.",downloadCSV:"CSV \u0130ND\u0130R",sum:"TOP",min:"MIN",max:"MAKS",avg:"ORT",count:"SAYIM",area:"ALAN",length:"UZUNLUK",_localized:{}}});

@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Geoprocessing/nls/strings":{_widgetLabel:"Geoprocessering",execute:"Udf\u00f8r",help:"Hj\u00e6lp",input:"Input",output:"Output",executing:"Udf\u00f8rer",requiredInfo:"er obligatorisk.",drawnOnMap:"Resultatet er tegnet p\u00e5 kortet.",clear:"Ryd",error:"Fejl",noToolConfig:"Ingen pr\u00e6konfigureret geoprocesseringsopgave er tilg\u00e6ngelig",useUrlForGPInput:"URL",useUploadForGPInput:"Overf\u00f8r fil",selectFileToUpload:"V\u00e6lg fil...",upload:"Overf\u00f8r",rasterFormat:"Rasterdataformat",
+noFileSelected:"Ingen fil valgt!",uploadSuccess:"Filoverf\u00f8rsel lykkedes!",url:"URL",showLayerContent:"Vis lagindhold",invalidUrl:"Ugyldig featuretjeneste-URL",Feet:"Fod",Yards:"Yards",Miles:"Miles",NauticalMiles:"S\u00f8mil",Meter:"Meter",Kilometers:"Kilometer",urlPlaceholder:"objekts\u00e6t-URL",addShapefile:"Tilf\u00f8j shapefil",generateShapefileError:"Gener\u00e9r shapefil-fejl, kontroll\u00e9r: ",cleared:"Resultatet er blevet ryddet.",enlargeView:"Forst\u00e5r visning",exportOutput:"Eksport\u00e9r",
+_localized:{}}});

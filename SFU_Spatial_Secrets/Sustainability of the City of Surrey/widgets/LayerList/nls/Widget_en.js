@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/LayerList/nls/strings":{_widgetLabel:"Layer List",titleBasemap:"Basemaps",titleLayers:"Operational Layers",labelLayer:"Layer Name",itemZoomTo:"Zoom to",itemTransparency:"Transparency",itemTransparent:"Transparent",itemOpaque:"Opaque",itemMoveUp:"Move up",itemMoveDown:"Move down",itemDesc:"Description",itemDownload:"Download",itemToAttributeTable:"Open Attribute Table",itemShowItemDetails:"Show Item Details",empty:"empty",removePopup:"Disable Pop-up",enablePopup:"Enable Pop-up",_localized:{}}});

@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"themes/LaunchpadTheme/widgets/AnchorBarController/nls/strings":{_widgetLabel:"\u0627\u0631\u062a\u0633\u0627\u0621 \u0645\u064f\u062a\u062d\u0643\u0645 \u0627\u0644\u0634\u0631\u064a\u0637",_layout_default:"\u062a\u062e\u0637\u064a\u0637 \u0627\u0641\u062a\u0631\u0627\u0636\u064a",_layout_layout1:"\u062a\u062e\u0637\u064a\u0637 0",more:"\u0639\u0646\u0627\u0635\u0631 \u0648\u0627\u062c\u0629 \u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0623\u0643\u062b\u0631",_localized:{}}});

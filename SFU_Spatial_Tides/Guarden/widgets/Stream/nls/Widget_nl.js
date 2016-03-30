@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Stream/nls/strings":{_widgetLabel:"Stroom",noStreamLayer:"Geen vooraf geconfigureerde stroomlaagopties beschikbaar.",streamControls:"Bedieningselementen voor streaming",startStreaming:"Streaming starten",stopStreaming:"Streaming stoppen",clearObservation:"Vorige observaties wissen",streamFilter:"Filter",showAllObservations:"Alle observaties weergeven",showMapAreaObservations:"Observaties beperken tot het huidige kaartgebied",showObservationsByDrawing:"Observaties beperken tot tekenen op de kaart",
+useSpatialFilter:"Ruimtelijke filter gebruiken om observaties te beperken",useAttributeFilter:"Attribuutfilter gebruiken om observaties te beperken",selectStreamLayer:"Stroomlaag selecteren",previousObservations:"Vorige observaties tekenen",applyAttrFilter:"Toepassen",_localized:{}}});

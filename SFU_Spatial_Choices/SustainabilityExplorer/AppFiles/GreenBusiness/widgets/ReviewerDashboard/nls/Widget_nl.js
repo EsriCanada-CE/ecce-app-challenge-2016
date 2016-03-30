@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/ReviewerDashboard/nls/strings":{_widgetLabel:"Reviewer Dashboard",spatialFilterSelection:"Resultaten filteren volgens geografie",drawSelectionArea:"Een resultaatselectiegebied op de kaart tekenen",currentSelection:"Resultaten alleen in huidige kaartextent tonen",censusBlockGroup:"Resultaten tonen volgens geografie",noSpatialFilter:" Geen ruimtelijke filter gebruiken",reviewerSessionFilter:"Resultaten filteren volgens Reviewersessie",selectAttributeFilters:"Weer te geven informatie selecteren",
+phaseFieldName:"levenscyclusfase",statusFieldName:"levenscyclusstatus",allSessions:"Alle sessies",dashboardTab:"Dashboard",filtersTab:"Instellingen",noResults:"Er zijn geen resultaten gevonden",resultsBy:"Resultaten volgens: ",reviewed:"Controleren",corrected:"Correctie",verified:"Verificatie",OtherCategory:"Anders",backButton:"Terug",_localized:{}}});

@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/ReportFeature/setting/nls/strings":{drsUrl:"Direcci\u00f3n URL del servidor de Data Reviewer",includeReportedBy:"T\u00e9cnico de Reviewer",label:"Capa",show:"Incluir",alias:"Alias",warning:"Entrada incorrecta",defaultSessionId:"Sesi\u00f3n predeterminada",setSource:"Definir",getCurrentUser:"Nombre de usuario que ha iniciado sesi\u00f3n",getDefaultUser:"Introduce un valor predeterminado",getUser:"Permitir entrada del usuario",userName:"Introducir nombre de usuario",noUserName:"Introduce el nombre de usuario predeterminado.",
+noLayers:"No hay capas operativas en el mapa web.",noSessionName:"Selecciona una sesi\u00f3n",revTechName:"Nombre de t\u00e9cnico revisor",_localized:{}}});

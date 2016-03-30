@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Geoprocessing/nls/strings":{_widgetLabel:"Geoprocesamiento",execute:"Ejecutar",help:"Ayuda",input:"Entrada",output:"Salida",executing:"Ejecutando",requiredInfo:"es obligatorio.",drawnOnMap:"El resultado se dibuja en el mapa.",clear:"Borrar",error:"Error",noToolConfig:"No hay ninguna tarea de geoprocesamiento preconfigurada disponible.",useUrlForGPInput:"URL",useUploadForGPInput:"Cargar archivo",selectFileToUpload:"Seleccionar archivo...",upload:"Cargar",rasterFormat:"Formato de datos r\u00e1ster",
+noFileSelected:"No hay ning\u00fan archivo seleccionado",uploadSuccess:"Carga de archivos correcta",url:"URL",showLayerContent:"Mostrar contenido de capa",invalidUrl:"Direcci\u00f3n URL del servicio de entidades no v\u00e1lida",Feet:"Pies",Yards:"Yardas",Miles:"Millas",NauticalMiles:"Millas N\u00e1uticas",Meter:"Metros",Kilometers:"Kil\u00f3metros",urlPlaceholder:"Direcci\u00f3n URL del conjunto de entidades",addShapefile:"Agregar shapefile",generateShapefileError:"Error de generador de shapefile, comprueba: ",
+cleared:"Se ha borrado el resultado.",enlargeView:"Agrandar vista",exportOutput:"Exportar",_localized:{}}});

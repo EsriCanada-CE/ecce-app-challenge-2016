@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Measurement/setting/nls/strings":{defaultAreaUnit:"Unit\u00e9 de surface par d\u00e9faut",defaultLengthUnit:"Unit\u00e9 de longueur par d\u00e9faut",acres:"Acres",sqMiles:"Milles carr\u00e9s",sqKilometers:"Kilom\u00e8tres carr\u00e9s",hectares:"Hectares",sqYards:"Verges carr\u00e9s",sqFeet:"Pieds carr\u00e9s",sqMeters:"M\u00e8tres carr\u00e9s",miles:"Miles",kilometers:"Kilom\u00e8tres",feet:"Pieds",meters:"M\u00e8tres",yards:"Yards",nauticalMiles:"Milles nautiques",_localized:{}}});

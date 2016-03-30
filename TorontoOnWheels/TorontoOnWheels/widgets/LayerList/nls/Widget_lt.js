@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/LayerList/nls/strings":{_widgetLabel:"Sluoksniai",titleBasemap:"Pagrindo \u017eem\u0117lapiai",titleLayers:"Darbiniai sluoksniai",labelLayer:"Sluoksnio pavadinimas",itemZoomTo:"Parodyti vis\u0105",itemTransparency:"Permatomumas",itemTransparent:"Permatomas",itemOpaque:"Nepermatomas",itemMoveUp:"Pakelti auk\u0161tyn",itemMoveDown:"Nuleisti \u017eemyn",itemDesc:"Apra\u0161as",itemDownload:"Atsi\u0173sti",itemToAttributeTable:"Atidaryti atribut\u0173 lentel\u0119",itemShowItemDetails:"Rodyti elemento apra\u0161\u0105",
+empty:"tu\u0161\u010dia",removePopup:"I\u0161jungti i\u0161kylan\u010dius langus",enablePopup:"\u012ejungti i\u0161kylan\u010dius langus",_localized:{}}});

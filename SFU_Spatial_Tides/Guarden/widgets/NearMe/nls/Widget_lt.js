@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/NearMe/nls/strings":{_widgetLabel:"NearMe",searchHeaderText:"Ie\u0161koti adreso arba rasti \u017eem\u0117lapyje",invalidSearchLayerMsg:"Netinkamai sukonfig\u016bruota sluoksni\u0173 paie\u0161ka",bufferSliderText:"Rezultatus pateikti\u00a0${BufferDistance} ${BufferUnit}",bufferSliderValueString:"Nurodykite atstum\u0105, didesn\u012f nei 0",unableToCreateBuffer:"Rezultat\u0173 nerasta",selectLocationToolTip:"Spustel\u0117kite, kad \u012ftrauktum\u0117te ta\u0161k\u0105",noFeatureFoundText:"Nieko nerasta ",
+attachmentHeader:"Priedai",unableToFetchResults:"Nepavyko rasti rezultat\u0173 sluoksnyje (-iuose):",informationTabTitle:"Informacija",directionTabTitle:"Kryptis",failedToGenerateRouteMsg:"Nepavyko sugeneruoti mar\u0161ruto.",geometryServicesNotFound:"Geometrijos paslauga negalima.",allPopupsDisabledMsg:"Nesukonfig\u016bruoti i\u0161kylantys langai, rezultat\u0173 pateikti negalima.",_localized:{}}});

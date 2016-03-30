@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Swipe/setting/nls/strings":{styleText:"S\u00e9lectionner un style pour l'outil de balayage",vertical:"Barre verticale",horizontal:"Barre horizontale",scope:"Longue-vue",layerText:"S\u00e9lectionner la couche \u00e0 balayer par d\u00e9faut",spyglassText:"S\u00e9lectionnez la couche qui doit appara\u00eetre dans la longue-vue par d\u00e9faut.",layerHint:"Remarque : si la couche est masqu\u00e9e par des couches sup\u00e9rieures, le balayage sera sans effet.",_localized:{}}});

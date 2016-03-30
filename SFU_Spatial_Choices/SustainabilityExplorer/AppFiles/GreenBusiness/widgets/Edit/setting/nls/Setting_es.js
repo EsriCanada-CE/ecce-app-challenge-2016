@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Edit/setting/nls/strings":{enableUndoRedo:"Habilitar deshacer/rehacer",toolbarVisible:"Barra de herramientas visible",toolbarOptions:"Opciones de barra de herramientas",mergeVisible:"Fusionar",cutVisible:"Cortar",reshapeVisible:"Cambiar de forma",back:"Atr\u00e1s",label:"Capa",edit:"Editable",update:"Deshabilitar actualizar geometr\u00eda",fields:"Campos",actions:"Acciones",editpageName:"Nombre",editpageAlias:"Alias",editpageVisible:"Visible",editpageEditable:"Editable",noLayers:"No hay disponibles capas de entidades editables",
+configureFields:"Configurar campos de capa",useFilterEdit:"Usar Edici\u00f3n de filtro",display:"Mostrar",_localized:{}}});

@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/ReportFeature/setting/nls/strings":{drsUrl:"Data Reviewer -palvelimen URL-osoite",includeReportedBy:"Reviewer-teknikko",label:"Karttataso",show:"Sis\u00e4llyt\u00e4",alias:"Alias",warning:"Virheellinen l\u00e4ht\u00f6aineisto",defaultSessionId:"Oletusistunto",setSource:"Aseta",getCurrentUser:"Sis\u00e4\u00e4nkirjautunut k\u00e4ytt\u00e4j\u00e4tunnus",getDefaultUser:"Anna oletusarvo",getUser:"Salli k\u00e4ytt\u00e4j\u00e4n sy\u00f6te",userName:"Kirjoita k\u00e4ytt\u00e4j\u00e4tunnus",
+noUserName:"Kirjoita oletusk\u00e4ytt\u00e4j\u00e4tunnus.",noLayers:"Web-kartassa ei ole toiminnallisia karttatasoja.",noSessionName:"Valitse istunto",revTechName:"Reviewer-teknikon nimi",_localized:{}}});

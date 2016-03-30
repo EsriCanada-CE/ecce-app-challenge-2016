@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+
+<!--
+2016 Ian Tattersfield for McGill University
+Code written by Ian Tattersfield is subject to copyright protection
+
+Copyright [2015] [Ian Tattersfield]
+
+This file is part of AccessMTL.
+
+    AccessMTL is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    AccessMTL is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with AccessMTL.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  	<title>AccessMTL Map</title>
+    <link rel="icon" type="image/png" href="images/favico.png" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<!--Scripts and Css  -->
+    <link rel="stylesheet" href="https://js.arcgis.com/3.15/dijit/themes/tundra/tundra.css">
+    <link rel="stylesheet" href="https://js.arcgis.com/3.15/esri/css/esri.css">
+    <script src="http://code.jquery.com/jquery-1.5.js"></script>
+    <!--/Scripts and Css  -->
+
+	<style>
+      html, body { height: 100%; width: 100%; margin: 0; padding: 0; }
+      #map { height: 100%; margin: 0; padding: 0; }
+      #legend {
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+        width: 180px;
+        height: 170px;
+        z-index: 40;
+        background: #fff;
+        color: #777;
+        padding: 5px;
+        border: 2px solid #666;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px; 
+        font-family: arial;
+        font-size: 0.9em;
+      }
+      #legend h3 {
+        color: #666;
+        font-size: 1.1em;
+        padding: 0px;
+        margin: 0px;
+        display: inline-block;
+      }
+      #loading { 
+        float: right;
+      }
+        #BasemapToggle {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 50;
+        }
+    </style>
+
+	<!-- Load Arc API library  -->
+	<script src="https://js.arcgis.com/3.15/"></script>
+	<!-- /Load Arc API library  -->
+
+	<!-- url query and kml locate  -->
+	<script>
+     var str = window.location.href;
+     var urlKml = str.replace("accessMtl.html", "mainMapKmlLevel.php?level=all");
+    </script>
+    <!-- /url query and kml locate  -->
+ 
+<!-- Map functionality -->   
+<script>
+  var map;
+
+  require([
+  "esri/map",
+	"esri/layers/KMLLayer",
+	"dojo/parser",
+	"dojo/dom-style",
+	"dojo/dom",
+	"dojo/on",
+
+	"esri/dijit/BasemapToggle",
+    "dijit/layout/BorderContainer",
+	"dijit/layout/ContentPane",
+	
+	"dojo/domReady!"
+  ], 
+  
+  function(
+  Map,
+	KMLLayer, 
+  parser,
+	domStyle,
+	dom,
+	on,
+	BasemapToggle
+  ){
+	//Load map set to dark-grey, center on Montreal  
+    map = new Map("map", {  
+      basemap: "dark-gray",
+      center: [-73.6837137541535,45.54319611681475],
+      zoom: 12
+    });
+
+	//Load dynamic Kml file to map
+	parser.parse();
+	var kmlUrl = urlKml;
+	var kml = new KMLLayer(kmlUrl); 
+	map.addLayer(kml);
+  //  kml.on("load", function() {
+ //     domStyle.set("loading", "display", "none");
+ //   });
+	
+	//Load basemap toggle
+	 var toggle = new BasemapToggle({
+		map: map,
+		basemap: "national-geographic"
+	  }, "BasemapToggle");
+	  toggle.startup();
+	  
+	  
+	   on(dom.byId("legend"), "click", function(evt) {
+            if ( evt.target.id === "HIGH" ) {
+             map.removeLayer(kml);
+			 urlKml = urlKml.substr(0, urlKml.indexOf('?'));
+			 urlKml += '?level=high';
+			 kml = new KMLLayer(urlKml);
+			 map.addLayer(kml);
+			}
+			if ( evt.target.id === "MED" ) {
+             map.removeLayer(kml);
+			 urlKml = urlKml.substr(0, urlKml.indexOf('?'));
+			 urlKml += '?level=med';
+ 			 kml = new KMLLayer(urlKml);
+			 map.addLayer(kml);
+			}
+			if ( evt.target.id === "LOW" ) {
+             map.removeLayer(kml);
+			 urlKml = urlKml.substr(0, urlKml.indexOf('?'));
+			 urlKml += '?level=low';
+ 			 kml = new KMLLayer(urlKml);
+			 map.addLayer(kml);
+			}
+			if ( evt.target.id === "ALL" ) {
+             map.removeLayer(kml);
+			 urlKml = urlKml.substr(0, urlKml.indexOf('?'));
+			 urlKml += '?level=all';
+ 			 kml = new KMLLayer(urlKml);
+			 map.addLayer(kml);
+			}
+		});
+ 
+  });
+  
+</script>
+<!-- Map functionality -->   
+</head>
+
+
+
+
+<body class="tundra">
+<div data-dojo-type="dijit/layout/BorderContainer" data-dojo-props="design:'headline',gutters:false" style="width: 100%; height: 100%; margin: 0;">
+    <div id="map" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'center'"> 
+        <div id="legend">
+            <h3>Legend:</h3><br><br>
+            <img src="../images/icons/high.png" width="15px"><button id="HIGH">High Accessibility</button><br>
+            <img src="../images/icons/med.png" width="15px"><button id="MED">Medium Accessibility</button><br>
+            <img src="../images/icons/low.png" width="15px"><button id="LOW">Low/no Accessibility</button>  <br>            <br>
+            <img src="../images/icons/all.png" width="15px"><button id="ALL">Show all features</button>  <br>
+            Click on a category to change its visibility on the map.
+        <div>
+    </div>     
+</div>
+<div id="BasemapToggle"></div>
+</body>
+
+</html>

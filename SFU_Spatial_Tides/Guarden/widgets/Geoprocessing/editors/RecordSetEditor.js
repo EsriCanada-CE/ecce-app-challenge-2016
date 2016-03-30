@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define(["dojo/_base/declare","dojo/_base/lang","dojo/_base/array","../BaseEditor","jimu/dijit/PopupConfig"],function(b,c,d,f,g){return b([f],{baseClass:"jimu-gp-editor-base jimu-gp-editor-rse",editorName:"RecordSetEditor",popupConfig:null,args:null,constructor:function(a){this.args=c.mixin({},a)},postCreate:function(){this.inherited(arguments);this.value={};var a={showTitle:!1};if(this.args&&this.args.param&&this.args.param.defaultValue){this.value=c.clone(this.args.param.defaultValue);var e=this.value.fields;
+if(this.value.output&&this.value.output.fields){var b=d.map(this.value.output.fields,function(a){return a.name});d.forEach(e,function(a){0<=b.indexOf(a.name)?a.visible=!0:a.visible=!1})}a.fields=e;this.popupConfig=new g(a);this.popupConfig.placeAt(this.domNode);this.popupConfig.startup()}else this.domNode.innerHTML="table"},destroy:function(){this.popupConfig&&(this.popupConfig.destroy(),this.popupConfig=null);this.inherited(arguments)},getValue:function(){if(this.popupConfig){var a=this.popupConfig.getConfig();
+this.value.output={title:a.title,fields:a.fields};this.value.fields=this.args.param.defaultValue.fields}return this.value}})});

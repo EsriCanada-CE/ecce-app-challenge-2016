@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Stream/nls/strings":{_widgetLabel:"Voogesitus",noStreamLayer:"\u00dckski eelkonfigureeritud voogesituse kihi valik pole saadaval.",streamControls:"Voogedastuse juhtelemendid",startStreaming:"Alusta voogedastust",stopStreaming:"Peata voogedastus",clearObservation:"T\u00fchista eelmised vaatlused",streamFilter:"Filter",showAllObservations:"Kuva k\u00f5ik vaatlused",showMapAreaObservations:"Piira vaatlusi kaardi praeguse kuvaulatuseni",showObservationsByDrawing:"Piira vaatlusi, joonistades kaardile",
+useSpatialFilter:"Kasuta ruumifiltrit vaatluste piiramiseks",useAttributeFilter:"Kasuta atribuudifiltrit vaatluste piiramiseks",selectStreamLayer:"Vali voogesituse kiht",previousObservations:"Joonista varasemad vaatlused",applyAttrFilter:"Rakenda",_localized:{}}});

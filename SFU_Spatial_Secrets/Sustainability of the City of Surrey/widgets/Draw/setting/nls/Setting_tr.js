@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Draw/setting/nls/strings":{addDistance:"Uzunluk Birimi Ekle",addArea:"Alan Birimi Ekle",label:"Etiket",abbr:"K\u0131saltma",conversion:"D\u00f6n\u00fc\u015f\u00fcm",actions:"\u0130\u015flemler",areaUnits:"Alan Birimi",distanceUnits:"Uzunluk Birimleri",kilometers:"Kilometre",miles:"Mil",meters:"Metre",feet:"Fit",yards:"Yarda",squareKilometers:"Kilometre kare",squareMiles:"Mil kare",acres:"\u0130ngiliz D\u00f6n\u00fcm\u00fc",hectares:"Hektar",squareMeters:"Metre kare",squareFeet:"Feet kare",
+squareYards:"Yarda kare",distance:"Mesafeler",area:"Alanlar",kilometersAbbreviation:"km",milesAbbreviation:"mi",metersAbbreviation:"m",feetAbbreviation:"ft",yardsAbbreviation:"yrd",squareKilometersAbbreviation:"km\u00b2",squareMilesAbbreviation:"mil\u00b2",acresAbbreviation:"ar",hectaresAbbreviation:"ha",squareMetersAbbreviation:"m\u00b2",squareFeetAbbreviation:"ft\u00b2",squareYardsAbbreviation:"yd kare",defineUnits:"\u00d6l\u00e7\u00fcm birimlerini tan\u0131mlay\u0131n.",operationalLayer:"\u00c7izimi harita katman\u0131n\u0131n bir i\u015flem katman\u0131 olarak ekleyin.",
+_localized:{}}});

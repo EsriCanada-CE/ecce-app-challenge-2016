@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define(["jimu/shared/BaseVersionManager"],function(h){function c(){this.versions=[{version:"1.0",upgrader:function(a){return a}},{version:"1.1",upgrader:function(a){for(var b=null,e=null,d=null,c=null,g="#5d9cd3 #eb7b3a #a5a5a5 #febf29 #4673c2 #72ad4c".split(" "),f=0;f<a.charts.length;f++)b=a.charts[f],c=b.mode,e=b.types,d=b.colors,delete b.types,delete b.colors,d="feature"===c||"category"===c?1===b.valueFields.length?[d[0]]:g:[d[0]],0<=e.indexOf("column")&&(b.column={horizontalAxis:!0,verticalAxis:!0,
+colors:d}),0<=e.indexOf("bar")&&(b.bar={horizontalAxis:!0,verticalAxis:!0,colors:d}),0<=e.indexOf("line")&&(b.line={horizontalAxis:!0,verticalAxis:!0,colors:d}),0<=e.indexOf("pie")&&(b.pie={label:!0,colors:g});return a}},{version:"1.2",upgrader:function(a){return a}},{version:"1.3",upgrader:function(a){return a}},{version:"1.4",upgrader:function(a){return a}}]}c.prototype=new h;return c.prototype.constructor=c});

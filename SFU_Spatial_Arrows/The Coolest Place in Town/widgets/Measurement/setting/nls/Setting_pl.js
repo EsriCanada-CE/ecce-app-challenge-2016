@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Measurement/setting/nls/strings":{defaultAreaUnit:"Domy\u015blna jednostka powierzchni",defaultLengthUnit:"Domy\u015blna jednostka d\u0142ugo\u015bci",acres:"Akry",sqMiles:"Mile kw.",sqKilometers:"Kilometry kw.",hectares:"Hektary",sqYards:"Jardy kw.",sqFeet:"Stopy kw.",sqMeters:"Metry kw.",miles:"Mile",kilometers:"Kilometry",feet:"Stopy",meters:"Metry",yards:"Jardy",nauticalMiles:"Mile Morskie",_localized:{}}});

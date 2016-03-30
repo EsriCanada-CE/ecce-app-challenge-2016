@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/ReviewerDashboard/setting/nls/strings":{drsSOEURL:"URL till Data Reviewer Server",chartSection:"Antal sektorer/staplar i diagrammet",selectByGeography:"Inkludera filter enligt geografi",selectUrl:"Tj\u00e4nstelager f\u00f6r filter enligt geografi",selectMapUrl:"Tj\u00e4nst f\u00f6r filter enligt geografi",geometryServiceURL:"URL till geometritj\u00e4nst",includeFieldNames:"V\u00e4lj f\u00e4lt",fieldNames:"F\u00e4ltnamn",lifecyclePhaseFieldName:"LIFECYCLEPHASE",setSource:"Ange",defaultFieldName:"allvarlighetsgrad",
+warning:"Felaktiga indata",includeDefaultFieldName:"Standardf\u00e4ltnamnet m\u00e5ste vara markerat",selectFieldWarning:"Minst ett f\u00e4lt m\u00e5ste vara synligt",defaultFieldNotVisible:"Standardf\u00e4ltet m\u00e5ste vara synligt",batchJobCheckGroup:"batchjobcheckgroup",defaultColumn:"Standard",visibleColumn:"Synlig",fieldNameColumn:"F\u00e4ltnamn f\u00f6r instrumentpanelen",aliasColumn:"Alias",_localized:{}}});

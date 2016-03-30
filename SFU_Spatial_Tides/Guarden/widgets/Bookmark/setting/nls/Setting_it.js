@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Bookmark/setting/nls/strings":{add:"Fare clic per aggiungere un nuovo segnalibro",title:"Titolo",placeholderBookmarkName:"Nome segnalibro",ok:"OK",cancel:"Annulla",warning:"Completare la modifica.",edit:"Modifica segnalibro",errorNameExist:"Segnalibro esistente.",errorNameNull:"Nome segnalibro non valido.",addBookmark:"Crea un nuovo segnalibro",thumbnail:"Anteprima",thumbnailHint:"Fare clic sull'immagine per aggiornare",_localized:{}}});

@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Directions/setting/nls/strings":{routeUrl:"Routen-URL",locatorUrl:"Geocoder-URL",geocoderOptions:"Geocoder-Optionen",autoComplete:"Automatisch vervollst\u00e4ndigen",maxLocations:"Maximale Anzahl von Positionen",minCharacters:"Minimale Anzahl von Zeichen",searchDelay:"Suchverz\u00f6gerung",placeholder:"Platzhalter",routeOptions:"Routen-Optionen",directionsLanguage:"Sprache f\u00fcr Wegbeschreibung",directionsLengthUnits:"L\u00e4ngeneinheiten f\u00fcr Wegbeschreibung",directionsOutputType:"Ausgabetyp der Wegbeschreibung",
+impedanceAttribute:"Impedanzattribut",kilometers:"Kilometer",miles:"Meilen",meters:"Meter",feet:"Fu\u00df",yards:"Yards",nauticalMiles:"Seemeilen",parametersTip:"Legen Sie die Parameter ordnungsgem\u00e4\u00df fest!",complete:"Abgeschlossen",completeNoEvents:"Ohne Ereignisse abgeschlossen",instructionsOnly:"Nur Anweisungen",standard:"Standard",summaryOnly:"Nur Zusammenfassung",travelModesUrl:"URL zu Reisemodi",searchPlaceholder:"Adresse oder Ort suchen",trafficLayerUrl:"URL des Verkehrsdaten-Layers",
+_localized:{}}});

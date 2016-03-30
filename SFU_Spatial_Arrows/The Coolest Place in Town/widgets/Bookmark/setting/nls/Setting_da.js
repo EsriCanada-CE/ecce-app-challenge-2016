@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Bookmark/setting/nls/strings":{add:"Klik for at tilf\u00f8je et nyt bogm\u00e6rke",title:"Titel",placeholderBookmarkName:"Bogm\u00e6rkenavn",ok:"OK",cancel:"Annuller",warning:"F\u00e6rdigg\u00f8r redigeringen!",edit:"Rediger bogm\u00e6rke",errorNameExist:"Bogm\u00e6rket findes!",errorNameNull:"Ugyldigt bogm\u00e6rkenavn!",addBookmark:"Opret et nyt bogm\u00e6rke",thumbnail:"Miniature",thumbnailHint:"Klik p\u00e5 billedet for at opdatere",_localized:{}}});

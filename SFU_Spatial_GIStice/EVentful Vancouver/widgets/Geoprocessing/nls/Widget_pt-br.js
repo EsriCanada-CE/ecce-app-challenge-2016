@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Geoprocessing/nls/strings":{_widgetLabel:"Geoprocessamento",execute:"Executar",help:"Ajuda",input:"Entrada",output:"Sa\u00edda",executing:"Executando",requiredInfo:"\u00e9 exigido.",drawnOnMap:"O resultado est\u00e1 desenhado no mapa.",clear:"Limpar",error:"Erro",noToolConfig:"Nenhuma tarefa de geoprocessamento pr\u00e9-configurada dispon\u00edvel.",useUrlForGPInput:"URL",useUploadForGPInput:"Carregar arquivo",selectFileToUpload:"Selecionar arquivo...",upload:"Fazer Upload",rasterFormat:"Formato de dados raster",
+noFileSelected:"Nenhum arquivo selecionado!",uploadSuccess:"Arquivo carregado com sucesso!",url:"URL",showLayerContent:"Mostrar conte\u00fado da camada",invalidUrl:"Url de servi\u00e7o da fei\u00e7\u00e3o inv\u00e1lido",Feet:"P\u00e9s",Yards:"Jardas",Miles:"Milhas",NauticalMiles:"Milhas N\u00e1uticas",Meter:"Metros",Kilometers:"Quil\u00f4metros",urlPlaceholder:"URL de conjunto da fei\u00e7\u00e3o",addShapefile:"Adicionar Shapefile",generateShapefileError:"Gerar erro de shapefile, verifique: ",cleared:"O resultado foi apagado.",
+enlargeView:"Aumentar visualiza\u00e7\u00e3o",exportOutput:"Exportar",_localized:{}}});

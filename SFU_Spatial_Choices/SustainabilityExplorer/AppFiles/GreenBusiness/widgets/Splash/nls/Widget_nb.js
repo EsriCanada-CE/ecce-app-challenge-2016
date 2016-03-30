@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Splash/nls/strings":{_widgetLabel:"Startskjermbilde",welcomeMessage:"Velkommen til ArcGIS webapplikasjon!",licenceAgree:"Jeg godtar",licenceTerm:"Vilk\u00e5r for ArcGIS webapplikasjon",labelContinue:"Fortsett",errorString:"*Du m\u00e5 godta lisensen for \u00e5 kunne fortsette.",notShowAgain:"Ikke vis dette velkomstbildet igjen.",ok:"OK",cancel:"Avbryt",_localized:{}}});

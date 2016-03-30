@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/RelatedTableCharts/nls/strings":{_widgetLabel:"Relaterte tabelldiagrammer",searchHeaderText:"S\u00f8k etter en adresse eller finn p\u00e5 kartet",addressInfowindowTitle:"Lokasjon det er s\u00f8kt etter",mouseOverTooltip:"Klikk for \u00e5 vise diagramm(er)",errMsgNoResultsFound:"Fant ingen resultater",errMsgNoFeaturesFound:"Finner ingen geoobjekter",noChatsConfigured:"Ingen forh\u00e5ndskonfigurerte diagrammer er tilgjengelige",_localized:{}}});

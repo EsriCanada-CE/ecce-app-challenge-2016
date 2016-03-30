@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Edit/setting/nls/strings":{enableUndoRedo:"\u555f\u7528\u5fa9\u539f/\u91cd\u505a",toolbarVisible:"\u5de5\u5177\u5217\u53ef\u898b",toolbarOptions:"\u5de5\u5177\u5217\u9078\u9805",mergeVisible:"\u5408\u4f75",cutVisible:"\u526a\u4e0b",reshapeVisible:"\u91cd\u5851",back:"\u4e0a\u4e00\u6b65",label:"\u5716\u5c64",edit:"\u53ef\u7de8\u8f2f",update:"\u505c\u7528\u66f4\u65b0\u5e7e\u4f55",fields:"\u6b04\u4f4d",actions:"\u64cd\u4f5c",editpageName:"\u540d\u7a31",editpageAlias:"\u5225\u540d",editpageVisible:"\u53ef\u898b",
+editpageEditable:"\u53ef\u7de8\u8f2f",noLayers:"\u6c92\u6709\u53ef\u7de8\u8f2f\u5716\u5fb5\u5716\u5c64",configureFields:"\u914d\u7f6e\u5716\u5c64\u6b04\u4f4d",useFilterEdit:"\u4f7f\u7528\u7be9\u9078\u5668\u7de8\u8f2f",display:"\u986f\u793a",_localized:{}}});

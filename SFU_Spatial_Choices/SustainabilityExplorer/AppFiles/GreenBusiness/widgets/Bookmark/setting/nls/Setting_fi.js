@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Bookmark/setting/nls/strings":{add:"Lis\u00e4\u00e4 uusi kirjanmerkki napsauttamalla",title:"Otsikko",placeholderBookmarkName:"Kirjanmerkin nimi",ok:"OK",cancel:"Peruuta",warning:"Viimeistele muokkaus.",edit:"Muokkaa kirjanmerkki\u00e4",errorNameExist:"Kirjanmerkki on olemassa!",errorNameNull:"Kirjanmerkin nimi on virheellinen!",addBookmark:"Luo uusi kirjanmerkki",thumbnail:"Pikkukuva",thumbnailHint:"P\u00e4ivit\u00e4 napsauttamalla kuvaa",_localized:{}}});

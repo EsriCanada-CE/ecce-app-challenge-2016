@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/DistrictLookup/nls/strings":{_widgetLabel:"DistrictLookup",searchHeaderText:"S\u00f8k etter en adresse eller finn p\u00e5 kartet",mouseOverTooltip:"Klikk for \u00e5 legge til punkt",informationTabTitle:"Informasjon",directionTabTitle:"Veibeskrivelser",invalidPolygonLayerMsg:"Polygonlaget er ikke konfigurert riktig",invalidRelatedPointLayerMsg:"Tilknyttet polygonlag er ikke konfigurert riktig",noPrecinctFoundMsg:"Finner ikke polygon for adressen eller lokasjonen",noPollingPlaceFoundMsg:"Finner ikke punktet som er knyttet til polygonen",
+attachmentHeader:"Vedlegg",failedToGenerateRouteMsg:"Kan ikke generere rute.",allPopupsDisabledMsg:"Popuper er ikke konfigurert. Kan ikke vise resultater.",_localized:{}}});

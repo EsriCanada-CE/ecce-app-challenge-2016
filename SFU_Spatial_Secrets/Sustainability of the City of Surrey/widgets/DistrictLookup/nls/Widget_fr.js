@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/DistrictLookup/nls/strings":{_widgetLabel:"Recherche de secteur",searchHeaderText:"Rechercher une adresse ou localiser sur la carte",mouseOverTooltip:"Cliquez pour ajouter un point",informationTabTitle:"Informations",directionTabTitle:"Calcul d'itin\u00e9raires",invalidPolygonLayerMsg:"La couche de polygones n\u2019est pas correctement configur\u00e9e",invalidRelatedPointLayerMsg:"La couche de points associ\u00e9e n\u2019est pas correctement configur\u00e9e",noPrecinctFoundMsg:"Aucun polygone trouv\u00e9 pour cette adresse ou cet emplacement",
+noPollingPlaceFoundMsg:"Impossible de trouver le point associ\u00e9 au polygone",attachmentHeader:"Pi\u00e8ces jointes",failedToGenerateRouteMsg:"La g\u00e9n\u00e9ration de l\u2019itin\u00e9raire a \u00e9chou\u00e9.",allPopupsDisabledMsg:"Les fen\u00eatres contextuelles ne sont pas configur\u00e9es, les r\u00e9sultats ne peuvent pas \u00eatre affich\u00e9s.",_localized:{}}});

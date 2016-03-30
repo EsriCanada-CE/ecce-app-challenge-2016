@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Stream/nls/strings":{_widgetLabel:"Str\u00f6mma",noStreamLayer:"Inga f\u00f6rkonfigurerade str\u00f6mlageralternativ \u00e4r tillg\u00e4ngliga.",streamControls:"Str\u00f6mningskontroller",startStreaming:"B\u00f6rja str\u00f6mma",stopStreaming:"Stoppa str\u00f6mning",clearObservation:"Rensa tidigare observationer",streamFilter:"Filter",showAllObservations:"Visa alla observationer",showMapAreaObservations:"Begr\u00e4nsa observationerna till det aktuella kartomr\u00e5det",showObservationsByDrawing:"Begr\u00e4nsa observationer genom att rita p\u00e5 kartan",
+useSpatialFilter:"Anv\u00e4nd geografiskt filter f\u00f6r att begr\u00e4nsa observationer",useAttributeFilter:"Anv\u00e4nd attributfilter f\u00f6r att begr\u00e4nsa observationer",selectStreamLayer:"V\u00e4lj ett str\u00f6mningslager",previousObservations:"Rita tidigare observationer",applyAttrFilter:"Verkst\u00e4ll",_localized:{}}});

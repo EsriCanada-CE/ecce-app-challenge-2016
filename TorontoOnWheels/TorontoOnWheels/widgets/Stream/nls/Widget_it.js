@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Stream/nls/strings":{_widgetLabel:"Streaming",noStreamLayer:"Non sono disponibili opzioni layer di flusso preconfigurate.",streamControls:"Controlli streaming",startStreaming:"Avvia streaming",stopStreaming:"Interrompi streaming",clearObservation:"Cancella le osservazioni precedenti",streamFilter:"Filtro",showAllObservations:"Mostra tutte le osservazioni",showMapAreaObservations:"Limita osservazioni ad area mappa corrente",showObservationsByDrawing:"Limita osservazioni disegnando sulla mappa",
+useSpatialFilter:"Usa filtro spaziale per limitare le osservazioni",useAttributeFilter:"Usa filtro attributi per limitare le osservazioni",selectStreamLayer:"Selezionare un layer di flusso",previousObservations:"Traccia osservazioni precedenti",applyAttrFilter:"Applica",_localized:{}}});

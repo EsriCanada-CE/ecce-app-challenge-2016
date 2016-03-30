@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/IncidentAnalysis/nls/strings":{_widgetLabel:"Juhtumi anal\u00fc\u00fcs",incident:"Juhtum",weather:"Ilm",locate_incident:"Paiguta juhtum",clear_incidents:"Puhasta juhtumid",reverse_geocoded_address:"L\u00e4him aadress",reverse_geocoded_error:"Ei ole k\u00e4ttesaadav",miles:"Miilid",kilometers:"Kilomeetrid",feet:"Jalad",meters:"Meetrid",yards:"Jardid",nauticalMiles:"Meremiilid",now:"KOHE",wind:"WIND",SUN:"P",MON:"E",TUE:"T",WED:"K",THU:"N",FRI:"R",SAT:"L",defaultTabMsg:"Juhtumeid ei tuvastatud.",
+actionLabel:"M\u00e4\u00e4ra juhtumiks",useMapExtent:"Kasuta praegust kaardi kuvaulatust",noFeaturesFound:"Objekte ei leitud.",downloadCSV:"CSV faili allalaadimine",sum:"SUM",min:"MIN",max:"MAX",avg:"AVG",count:"KOGUARV",area:"AREA",length:"LENGTH",_localized:{}}});

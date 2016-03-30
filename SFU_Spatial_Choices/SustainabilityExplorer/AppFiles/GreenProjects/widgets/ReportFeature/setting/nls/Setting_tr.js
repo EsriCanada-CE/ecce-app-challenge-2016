@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/ReportFeature/setting/nls/strings":{drsUrl:"Data Reviewer Server URL'si",includeReportedBy:"Reviewer Teknisyeni",label:"Katman",show:"\u0130\u00e7eren",alias:"Takma Ad",warning:"Hatal\u0131 girdi",defaultSessionId:"Varsay\u0131lan Oturum",setSource:"K\u00fcme",getCurrentUser:"Oturum A\u00e7\u0131lan Kullan\u0131c\u0131 Ad\u0131",getDefaultUser:"Varsay\u0131lan de\u011fer gir",getUser:"Kullan\u0131c\u0131 giri\u015fine izin ver",userName:"Kullan\u0131c\u0131 Ad\u0131 Gir",noUserName:"Varsay\u0131lan kullan\u0131c\u0131 ad\u0131n\u0131 girin.",
+noLayers:"Web Haritas\u0131nda i\u015flem katman\u0131 yok.",noSessionName:"Oturum se\u00e7in.",revTechName:"Reviewer Teknisyeninin Ad\u0131",_localized:{}}});

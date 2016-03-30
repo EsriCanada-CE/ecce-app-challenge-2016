@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/NearMe/nls/strings":{_widgetLabel:"NearMe",searchHeaderText:"S\u00f8k etter en adresse eller finn p\u00e5 kartet",invalidSearchLayerMsg:"S\u00f8kelagene er ikke konfigurert riktig",bufferSliderText:"Vis resultater innenfor ${BufferDistance} ${BufferUnit}",bufferSliderValueString:"Angi en avstand som er st\u00f8rre enn 0",unableToCreateBuffer:"Kan ikke finne resultat(er)",selectLocationToolTip:"Klikk for \u00e5 legge til punkt",noFeatureFoundText:"Finner ingen resultater ",attachmentHeader:"Vedlegg",
+unableToFetchResults:"Kan ikke hente resultater fra lag:",informationTabTitle:"Informasjon",directionTabTitle:"Veibeskrivelse",failedToGenerateRouteMsg:"Kan ikke generere rute.",geometryServicesNotFound:"Geometritjenesten er ikke tilgjengelig.",allPopupsDisabledMsg:"Popuper er ikke konfigurert. Kan ikke vise resultater.",_localized:{}}});

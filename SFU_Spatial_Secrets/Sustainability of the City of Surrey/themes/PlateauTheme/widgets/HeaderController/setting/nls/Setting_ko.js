@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"themes/PlateauTheme/widgets/HeaderController/setting/nls/strings":{group:"\uc774\ub984",openAll:"\ud328\ub110\uc758 \ubaa8\ub4e0 \ud56d\ubaa9 \uc5f4\uae30",dropDown:"\ub4dc\ub86d\ub2e4\uc6b4 \uba54\ub274\uc5d0\uc11c \ubcf4\uae30",noGroup:"\uc704\uc82f \uadf8\ub8f9 \uc138\ud2b8\uac00 \uc5c6\uc2b5\ub2c8\ub2e4.",groupSetLabel:"\uc704\uc82f \uadf8\ub8f9 \ub4f1\ub85d\uc815\ubcf4 \uc124\uc815",_localized:{}}});

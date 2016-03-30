@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/ReviewerDashboard/nls/strings":{_widgetLabel:"Reviewer Dashboard",spatialFilterSelection:"Filtrer resultater etter geografi",drawSelectionArea:"Tegn et omr\u00e5de for resultatutvalg p\u00e5 kartet",currentSelection:"Vis bare resultater i gjeldende kartutstrekning",censusBlockGroup:"Vis resultater etter geografi",noSpatialFilter:" Bruk ikke romlig filter",reviewerSessionFilter:"Filtrer resultater etter Reviewer-\u00f8kt",selectAttributeFilters:"Velg informasjon som skal vises",phaseFieldName:"lifecyclephase",
+statusFieldName:"lifecyclestatus",allSessions:"Alle \u00f8kter",dashboardTab:"Dashbord",filtersTab:"Innstillinger",noResults:"Finner ingen resultater",resultsBy:"Resultater etter: ",reviewed:"Vurder",corrected:"Korrigering",verified:"Verifisering",OtherCategory:"Annet",backButton:"Tilbake",_localized:{}}});

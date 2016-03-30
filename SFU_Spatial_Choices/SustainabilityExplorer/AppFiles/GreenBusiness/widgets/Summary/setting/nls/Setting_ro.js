@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Summary/setting/nls/strings":{selectLayer:"Selectare strat tematic rezumat",filterField:"C\u00e2mp filtru strat tematic rezumat",count:"NUM\u0102R",sum:"SUM\u0102",min:"MIN.",max:"MAX",avg:"MED.",addField:"Ad\u0103ugare c\u00e2mp rezumat",label:"Etichet\u0103",type:"Tip",field:"C\u00e2mp",actions:"Ac\u0163iuni",displayCluster:"Afi\u015fare ca grup\u0103ri rezumat",showFeatureCount:"Afi\u015fare num\u0103r obiecte spa\u0163iale",featureCountLabel:"Etichet\u0103 num\u0103r obiecte spa\u0163iale",
+missingLayerInWebMap:"Ad\u0103uga\u0163i straturi tematice rezumat la harta web.",_localized:{}}});

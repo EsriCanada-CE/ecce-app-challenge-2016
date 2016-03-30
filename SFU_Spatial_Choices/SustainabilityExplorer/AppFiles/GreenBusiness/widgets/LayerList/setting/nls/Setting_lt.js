@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/LayerList/setting/nls/strings":{showLegend:"Rodyti legend\u0105",controlPopupMenuTitle:"Pasirinkite, kurie veiksmai bus rodomi sluoksnio kontekstiniame meniu.",zoomto:"Artinti \u012f",transparency:"Permatomumas",controlPopup:"\u012ejungti / i\u0161jungti i\u0161kylan\u010dius langus",moveUpAndDown:"\u012e vir\u0161\u0173 / \u012f apa\u010di\u0105",attributeTable:"Atidaryti atribut\u0173 lentel\u0119",url:"Apra\u0161ymas / Rodyti elemento informacij\u0105 / Atsisi\u0173sti",_localized:{}}});

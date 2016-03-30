@@ -1,0 +1,6 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/NearMe/nls/strings":{_widgetLabel:"Autour de moi",searchHeaderText:"Rechercher une adresse ou localiser sur la carte",invalidSearchLayerMsg:"Les couches de recherche ne sont pas correctement configur\u00e9es",bufferSliderText:"Afficher les r\u00e9sultats au sein de ${BufferDistance} ${BufferUnit}",bufferSliderValueString:"Sp\u00e9cifiez une distance sup\u00e9rieure \u00e0\u00a00",unableToCreateBuffer:"R\u00e9sultats introuvables",selectLocationToolTip:"Cliquez pour ajouter un point",
+noFeatureFoundText:"Aucun r\u00e9sultat trouv\u00e9 ",attachmentHeader:"Pi\u00e8ces jointes",unableToFetchResults:"Impossible de r\u00e9cup\u00e9rer les r\u00e9sultats \u00e0 partir des couches\u00a0:",informationTabTitle:"Informations",directionTabTitle:"Itin\u00e9raire",failedToGenerateRouteMsg:"La g\u00e9n\u00e9ration de l\u2019itin\u00e9raire a \u00e9chou\u00e9.",geometryServicesNotFound:"Service de g\u00e9om\u00e9trie non disponible.",allPopupsDisabledMsg:"Les fen\u00eatres contextuelles ne sont pas configur\u00e9es, les r\u00e9sultats ne peuvent pas \u00eatre affich\u00e9s.",
+_localized:{}}});

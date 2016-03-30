@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+<title>AccessMTL Main Map</title>
+
+<link rel="stylesheet" href="https://js.arcgis.com/3.15/dijit/themes/tundra/tundra.css">
+<link rel="stylesheet" href="https://js.arcgis.com/3.15/esri/css/esri.css">
+<style>
+  html, body { height: 100%; width: 100%; margin: 0; padding: 0; }
+  #map { 
+  	height: 900px; 
+	margin: 0; 
+	padding: 0; }
+  
+  #widget {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    width: 100%px;
+    height: 70px;
+    z-index: 40;
+    background: #fff;
+    color: #777;
+    padding: 5px;
+    border: 2px solid #666;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; 
+    font-family: arial;
+    font-size: 0.9em;
+  }
+  #widget h3 {
+    color: #666;
+    font-size: 1.1em;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+  }
+  #loading { 
+    float: right;
+  }
+</style>
+
+<script src="https://js.arcgis.com/3.15/"></script>
+
+<script>
+ var map;
+ var layers = [];
+	layers[0] = {index: "0", title: "Cultural Sites", url: "x"};
+	layers[1] = {index: "1", title: "Community Gardens", url: "http://www.accessmtl.ca/layers/cultural.php"};
+	layers[2] = {index: "2", title: "Accessiblity", url: "http://www.accessmtl.ca/layers/access.php"};
+	layers[3] = {index: "3", title: "Accessiblity", url: "http://mcgillgis.maps.arcgis.com/sharing/rest/content/items/074acabbb3e745ef8898562b55e44996/data"};
+	
+
+  require([
+    "esri/map",
+	"esri/layers/KMLLayer",
+    "dojo/parser",
+	"dojo/dom-style", 
+	"dojo/dom",
+	"dojo/on",
+	"esri/tasks/query",
+	"esri/tasks/QueryTask",
+    "dijit/form/CheckBox",
+    "dijit/layout/BorderContainer",
+	"dijit/layout/ContentPane",
+	"dojo/domReady!"
+  ], function(
+    Map,
+	KMLLayer, 
+	parser,
+	domStyle,
+	dom,
+	on,
+	Query,
+	QueryTask,
+	CheckBox	
+  ) {
+	  
+	  
+    map = new Map("map", { 
+      basemap: "topo",
+      center: [-73.57941804326065,45.50589273223628],
+      zoom: 6
+    });
+
+
+	
+   // parser.parse();
+	
+	on(dom.byId("CULTURAL"), "click", culturalLayer);
+	on(dom.byId("GARDENS"), "click", communityLayer);
+	on(dom.byId("ACCESS"), "click", universalLayer);
+
+     
+    kml.on("load", function() {
+      domStyle.set("loading", "display", "none");
+    });
+	
+	function toggleLayer(id) {
+		var kmlUrl = layers[0].url;
+   		var kml = new KMLLayer(kmlUrl);
+		console.log('oob');
+		map.addLayer(kml);
+	}
+
+	function communityLayer(id) {
+		var kmlUrl = layers[1].url;
+   		var kml = new KMLLayer(kmlUrl);
+		console.log('oob');
+		map.addLayer(kml);
+	}
+	
+	function universalLayer() {
+		var kmlUrl = layers[2].url;
+   		var kml = new KMLLayer(kmlUrl);
+		console.log('oob');
+		map.addLayer(kml);
+	}
+	
+  });
+  
+
+</script>
+
+</head>
+
+
+<body class="tundra">
+<div data-dojo-type="dijit/layout/BorderContainer" 
+     data-dojo-props="design:'headline',gutters:false" 
+     style="width: 100%; height: 100%; margin: 0;">
+  <div id="map" 
+       data-dojo-type="dijit/layout/ContentPane" 
+       data-dojo-props="region:'center'"> 
+       
+    <div id="widget">
+      <span id="loading"></span>
+		<input id="CULTURAL" type="button" value="Cultural Sites"><br>
+        <input id="GARDENS" type="button" value="Community Gardens"><br>
+        <input id="ACCESS" type="button" value="Univ. Access"><br>
+    <div>
+  </div>
+</div>
+</body>
+
+</html>

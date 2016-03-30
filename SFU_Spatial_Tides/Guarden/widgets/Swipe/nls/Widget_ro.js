@@ -1,0 +1,4 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Swipe/nls/strings":{_widgetLabel:"Glisare",swipeText:" Selecta\u0163i stratul tematic pe care dori\u0163i s\u0103 \u00eel prelua\u0163i",spyglassText:"Selecta\u0163i stratul tematic care s\u0103 apar\u0103 \u00een ochean",disableTips:"Face\u0163i clic pentru a dezactiva instrumentul de glisare",enableTips:"Face\u0163i clic pentru a activa instrumentul de glisare",_localized:{}}});

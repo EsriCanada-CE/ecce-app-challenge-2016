@@ -1,0 +1,5 @@
+// All material copyright ESRI, All Rights Reserved, unless otherwise specified.
+// See http://js.arcgis.com/3.15/esri/copyright.txt and http://www.arcgis.com/apps/webappbuilder/copyright.txt for details.
+//>>built
+define({"widgets/Stream/nls/strings":{_widgetLabel:"Liten elv",noStreamLayer:"Det er ingen forh\u00e5ndskonfigurerte alternativer for str\u00f8mmingslag.",streamControls:"Str\u00f8mmingskontroller",startStreaming:"Start str\u00f8mming",stopStreaming:"Stopp str\u00f8mming",clearObservation:"Fjern tidligere observasjoner",streamFilter:"Filter",showAllObservations:"Vis alle observasjoner",showMapAreaObservations:"Begrens observasjoner til gjeldende kartomr\u00e5de",showObservationsByDrawing:"Begrens observasjoner ved \u00e5 tegne i kartet",
+useSpatialFilter:"Bruk geografisk filter til \u00e5 begrense observasjoner",useAttributeFilter:"Bruk attributtfilter til \u00e5 begrense observasjoner",selectStreamLayer:"Velg et str\u00f8mmelag",previousObservations:"Tegn tidligere observasjoner",applyAttrFilter:"Bruk",_localized:{}}});
