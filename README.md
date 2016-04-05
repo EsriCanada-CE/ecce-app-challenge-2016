@@ -14,6 +14,7 @@ ECCE App Challenge 2016
 * [SFU_Spatial_Arrows](https://youtu.be/6bcGmprNkxM)
 * [SFU_Spatial_Choices](https://youtu.be/NBXhLngLdnQ)
 * [SFU_Spatial_GIStice](http://ecce.esri.ca/app-challenge-videos/SFU_Spatial_GIStice.mp4)
+* [SFU_Spatial_Secrets](http://ecce.esri.ca/app-challenge-videos/SFU_Spatial_Secrets.m4v)
 * [SFU_Spatial_Tides](http://ecce.esri.ca/app-challenge-videos/SFU_Spatial_Tides.mov)
 * [SeaLevelRise](http://ecce.esri.ca/app-challenge-videos/SeaLevelRise.wmv)
 * [SpatialCOGnition](http://ecce.esri.ca/app-challenge-videos/SpatialCOGnition.wmv)
