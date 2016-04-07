@@ -5,60 +5,79 @@
 ##### AcessMTL
   * [App](http://ecce.esri.ca/app-challenge/2016/accessMTL)
   * [Video](http://ecce.esri.ca/app-challenge-videos/AccessMTL.mp4)
+
 ##### All EnCompass
   * [App](https://cogsnscc.maps.arcgis.com/apps/MapSeries/index.html?appid=7e624ae37d9040f88f948dd036561fe3)
   * [Video](https://youtu.be/FYLr6UYrtXs)
+
 ##### GeoDoubleW
   * [App](http://ecce.esri.ca/app-challenge/2016/WhereIsWater)
   * [Video](http://ecce.esri.ca/app-challenge-videos/GeoDoubleW.mp4)
+
 ##### GreenHam
   * [App](http://victortimpau.me/rehamilton.html)
   * [Video](https://vimeo.com/157817386)
+
 ##### GreenSpace
   * [App](http://ecce.esri.ca/app-challenge/2016/GreenSpace)
   * [Video](http://ecce.esri.ca/app-challenge-videos/GreenSpace.webm)
+
 ##### HRMSeaLevelRise
   * [App](http://dalspatial.maps.arcgis.com/apps/webappviewer/index.html?id=f2f9e4fe23fd4d949bd66a6a40c217d4)
   * [Video](http://ecce.esri.ca/app-challenge-videos/HRMSeaLevelRise.mov)
+
 ##### LocalEat
   * [App](http://ecce.esri.ca/app-challenge/2016/LocalEat)
   * [Video](http://ecce.esri.ca/app-challenge-videos/LocalEat.m4v)
+
 ##### Mapster
   * [App](http://ecce.esri.ca/app-challenge/2016/SolarSaver)
   * [Video](http://ecce.esri.ca/app-challenge-videos/Mapster.m4v)
+
 ##### MaraudersmApp
   * [App](http://ecce.esri.ca/app-challenge/2016/maraudersmApp/Try%20Me!/GetStarted.html)
   * [Video](http://ecce.esri.ca/app-challenge-videos/maraudersmApp.mp4)
+
 ##### SFU\_Spatial\_Arrows
   * [App](http://ecce.esri.ca/app-challenge/2016/TheCoolestPlaceInTown)
   * [Video](https://youtu.be/6bcGmprNkxM)
+
 ##### SFU\_Spatial\_Choices
   * [App](http://ecce.esri.ca/app-challenge/2016/SustainabilityExplorer)
   * [Video](https://youtu.be/NBXhLngLdnQ)
+
 ##### SFU\_Spatial\_GIStice
   * [App](http://ecce.esri.ca/app-challenge/2016/EVentfulVancouver)
   * [Video](http://ecce.esri.ca/app-challenge-videos/SFU_Spatial_GIStice.mp4)
+
 ##### SFU\_Spatial\_Secrets
   * [App](http://ecce.esri.ca/app-challenge/2016/SustainabilityOfTheCityOfSurrey)
   * [Video](http://ecce.esri.ca/app-challenge-videos/SFU_Spatial_Secrets.m4v)
+
 ##### SFU\_Spatial\_Tides
   * [App](http://simonfraseru.maps.arcgis.com/apps/webappviewer/index.html?id=1d63c47e99a2425592345455d701c106)
   * [Video](http://ecce.esri.ca/app-challenge-videos/SFU_Spatial_Tides.mov)
+
 ##### SeaLevelRise
   * [App](http://dalspatial.maps.arcgis.com/apps/webappviewer/index.html?id=7687d75e2c8c4f3eadb366638cc1ad02)
   * [Video](http://ecce.esri.ca/app-challenge-videos/SeaLevelRise.wmv)
+
 ##### SpatialCOGnition
   * [App](http://ecce.esri.ca/app-challenge/2016/BuildingResilience)
   * [Video](http://ecce.esri.ca/app-challenge-videos/SpatialCOGnition.wmv)
+
 ##### TeamDUP
   * [App](http://dalspatial.maps.arcgis.com/apps/webappviewer/index.html?id=f9060d8f83854b938de35d29dae6c450)
   * [Video](http://ecce.esri.ca/app-challenge-videos/TeamDUP.mov)
+
 ##### TorontoOnWheels
   * [App](http://ecce.esri.ca/app-challenge/2016/TorontoOnWheels)
   * [Video](http://ecce.esri.ca/app-challenge-videos/TorontoOnWheels.mp4)
+
 ##### UNB-GGE
   * [App](http://ecce.esri.ca/app-challenge/2016/UNB-GGE)
   * [Video](http://ecce.esri.ca/app-challenge-videos/UNB-GGE.mp4)
+
 ##### UWSpin
   * [App](http://uwspin.maps.arcgis.com/apps/webappviewer/index.html?id=2c0e8f217b654adeb33580c702bfff8d)
   * [Video](http://ecce.esri.ca/app-challenge-videos/UWSpin.mp4)
