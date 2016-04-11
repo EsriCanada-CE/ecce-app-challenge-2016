@@ -75,7 +75,7 @@
   * [Video](http://ecce.esri.ca/app-challenge-videos/TorontoOnWheels.mp4)
 
 ##### UNB-GGE
-  * [App](http://ecce.esri.ca/app-challenge/2016/UNB-GGE)
+  * [App](http://www2.unb.ca/~hmcgrat1/CGS_UNB/)
   * [Video](http://ecce.esri.ca/app-challenge-videos/UNB-GGE.mp4)
 
 ##### UWSpin
