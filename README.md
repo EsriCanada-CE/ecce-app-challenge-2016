@@ -30,7 +30,7 @@
   * [App](http://ecce.esri.ca/app-challenge/2016/LocalEat)
   * [Video](http://ecce.esri.ca/app-challenge-videos/LocalEat.m4v)
 
-##### Mapster
+##### Mapster (* Winning team of the 2016 app challenge)
   * [App](http://ecce.esri.ca/app-challenge/2016/SolarSaver)
   * [Video](http://ecce.esri.ca/app-challenge-videos/Mapster.m4v)
 
